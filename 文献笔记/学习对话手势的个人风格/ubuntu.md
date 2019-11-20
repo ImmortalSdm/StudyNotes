@@ -14,7 +14,15 @@ extract
 python -m data.train_test_data_extraction.extract_data_for_training --base_dataset_path ../ --speaker oliver
 ```
 
+train
+```
+python -m audio_to_multiple_pose_gan.train --gans 1 --name test_run --arch_g audio_to_pose_gans --arch_d pose_D --speaker oliver --output_path ../tmp
+```
 
+tensorflow-gpu
+```
+https://files.pythonhosted.org/packages/a1/eb/bc0784af18f612838f90419cf4805c37c20ddb957f5ffe0c42144562dcfa/tensorflow_gpu-2.0.0-cp37-cp37m-manylinux2010_x86_64.whl
+```
 
 cuda:
 ```

@@ -9,6 +9,14 @@ start
 source activate speech2gesture_env_py27
 ```
 
+```
+pip install tensorflow_gpu-1.9.0-cp27-cp27mu-manylinux1_x86_64.whl
+```
+
+```
+pip install -r requirments.txt
+```
+
 extract
 ```
 python -m data.train_test_data_extraction.extract_data_for_training --base_dataset_path ../ --speaker oliver
@@ -22,6 +30,7 @@ python -m audio_to_multiple_pose_gan.train --gans 1 --name test_run --arch_g aud
 ```
 python -m audio_to_multiple_pose_gan.predict_to_videos --train_csv ../train.csv --seq_len 64 --output_path ../tmp/my_output_folder --speaker oliver -ag audio_to_pose_gans --gans 1
 ```
+
 ---
 
 tensorflow-gpu py37

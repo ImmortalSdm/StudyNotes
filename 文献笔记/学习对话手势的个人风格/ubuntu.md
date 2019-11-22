@@ -1,3 +1,7 @@
+```
+sudo apt-get install ffmpeg
+```
+
 create
 ```
 conda create --name speech2gesture_env_py27 python=2.7 anaconda

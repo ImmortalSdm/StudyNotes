@@ -6,8 +6,6 @@ conda create --name speech2gesture_env_py27 python=2.7 anaconda
 
 start
 ```
-source activate speech2gesture_env_py37
-
 source activate speech2gesture_env_py27
 ```
 
@@ -26,11 +24,12 @@ python -m audio_to_multiple_pose_gan.predict_to_videos --train_csv ../train.csv 
 ```
 ---
 
-tensorflow-gpu
+tensorflow-gpu py37
 ```
 https://files.pythonhosted.org/packages/a1/eb/bc0784af18f612838f90419cf4805c37c20ddb957f5ffe0c42144562dcfa/tensorflow_gpu-2.0.0-cp37-cp37m-manylinux2010_x86_64.whl
 ```
 
+tensorflow-gpu py27
 ```
 https://files.pythonhosted.org/packages/68/45/8ed49fb2decd4ce7849fc9755d9e066f414fb29c40e811bf4c12287de0af/tensorflow_gpu-1.9.0-cp27-cp27mu-manylinux1_x86_64.whl
 ```

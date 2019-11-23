@@ -74,6 +74,11 @@ sudo mv gcc gcc.bak #备份
 sudo ln -s gcc-4.8 gcc #重新链接
 ```
 
+再查看gcc版本号：
+```
+gcc -v
+```
+
 同理，对g++也做同样的修改：
 ```
 ls -l g++*
@@ -81,7 +86,7 @@ ls -l g++*
 > lrwxrwxrwx 1 root root 7th May 15:17 g++ -> g++-7.3
 
 
-需要将g++链接改为g++-4.8:
+需要将g++链接改为g++-4.8：
 ```
 sudo mv g++ g++.bak
 ```
@@ -89,14 +94,11 @@ sudo mv g++ g++.bak
 sudo ln -s g++-4.8 g++
 ```
 
-再查看gcc和g++版本号：
-```
-gcc -v
-```
+查看g++版本号：
 ```
 g++ -v
 ```
-均显示gcc version 4.8 ，说明gcc 4.8安装成功。
+
 
 ##### 3.2. 安装cuda 及其补丁
 

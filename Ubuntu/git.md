@@ -18,9 +18,10 @@ git config --global user.name "zb"
 
 配置邮箱：
 ```
-git config --global user.email "root@linuxidc.net"
+git config --global user.email "1037976812@qq.com"
 ```
 
+查看配置结果
 ```
 git config --list
 ```

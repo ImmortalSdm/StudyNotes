@@ -21,8 +21,52 @@ pip install tensorflow_gpu-1.9.0-cp27-cp27mu-manylinux1_x86_64.whl
 pip install -r requirments.txt
 ```
 
-下载cuda
+---
+
+### 下载cuda及其补丁
 [cuda_9.0.176_384.81_linux.run](https://developer.download.nvidia.com/compute/cuda/9.0/secure/Prod/local_installers/cuda_9.0.176_384.81_linux.run?j_S72UF5E3JBxLRAxClXK4uwOoFaKo-qZKgtLzn9hvE8217Fh9nE_efls2oQHDQDSPqTS7eMdweECSnO2Aaebbwt9ManGjkarcOuFsu5rSWyTFH3-4mJJf1guYdvhtu1ogYqE40uLIZv2i1OFf2huDmwQZ71XTBgk3jqwf4hgBMOoLeTHI86t4DE)
+
+### 下载cudnn7.6.2
+
+### 安装cuda
+
+##### 1.GCC 降级
+```
+sudo apt-get install gcc-4.8
+sudo apt-get install g++-4.8
+```
+装完后进入到/usr/bin目录下
+```
+$ls -l gcc*
+```
+会显示以下结果
+```
+lrwxrwxrwx 1 root root 7th May 16 18:16 /usr/bin/gcc -> gcc-7.3
+```
+发现gcc链接到gcc-7.0, 需要将它改为链接到gcc-4.8，方法如下:
+```
+sudo mv gcc gcc.bak #备份
+sudo ln -s gcc-4.8 gcc #重新链接
+```
+同理，对g++也做同样的修改：
+```
+ls -l g++*
+lrwxrwxrwx 1 root root 7th May 15:17 g++ -> g++-7.3
+```
+需要将g++链接改为g++-4.8:
+```
+sudo mv g++ g++.bak
+sudo ln -s g++-4.8 g++
+```
+再查看gcc和g++版本号：
+```
+gcc -v g++ -v
+```
+均显示gcc version 4.8 ，说明gcc 4.8安装成功。
+
+##### 2.安装cuda 及其补丁
+
+---
 
 extract
 ```

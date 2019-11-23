@@ -21,16 +21,22 @@ pip install tensorflow_gpu-1.9.0-cp27-cp27mu-manylinux1_x86_64.whl
 pip install -r requirments.txt
 ```
 
+下载cuda
+[cuda_9.0.176_384.81_linux.run](https://developer.download.nvidia.com/compute/cuda/9.0/secure/Prod/local_installers/cuda_9.0.176_384.81_linux.run?j_S72UF5E3JBxLRAxClXK4uwOoFaKo-qZKgtLzn9hvE8217Fh9nE_efls2oQHDQDSPqTS7eMdweECSnO2Aaebbwt9ManGjkarcOuFsu5rSWyTFH3-4mJJf1guYdvhtu1ogYqE40uLIZv2i1OFf2huDmwQZ71XTBgk3jqwf4hgBMOoLeTHI86t4DE)
+
 extract
 ```
 python -m data.train_test_data_extraction.extract_data_for_training --base_dataset_path ../ --speaker oliver
 ```
 
-train
+
+
+训练
 ```
 python -m audio_to_multiple_pose_gan.train --gans 1 --name test_run --arch_g audio_to_pose_gans --arch_d pose_D --speaker oliver --output_path ../tmp
 ```
 
+预测
 ```
 python -m audio_to_multiple_pose_gan.predict_to_videos --train_csv ../train.csv --seq_len 64 --output_path ../tmp/my_output_folder --speaker oliver -ag audio_to_pose_gans --gans 1
 ```

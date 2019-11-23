@@ -35,6 +35,8 @@ pip install -r requirments.txt
 由于CUDA 9.0仅支持GCC 6.0及以下版本，而Ubuntu 19.10预装GCC版本为9.0，故手动进行降级：
 ```
 sudo apt-get install gcc-4.8
+```
+```
 sudo apt-get install g++-4.8
 ```
 
@@ -49,6 +51,8 @@ ls -l gcc*
 发现gcc链接到gcc-9.0, 需要将它改为链接到gcc-4.8，方法如下:
 ```
 sudo mv gcc gcc.bak #备份
+```
+```
 sudo ln -s gcc-4.8 gcc #重新链接
 ```
 
@@ -62,6 +66,8 @@ ls -l g++*
 需要将g++链接改为g++-4.8:
 ```
 sudo mv g++ g++.bak
+```
+```
 sudo ln -s g++-4.8 g++
 ```
 

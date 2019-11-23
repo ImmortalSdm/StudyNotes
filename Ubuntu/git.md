@@ -1,4 +1,5 @@
 `apt-get update`
+
 `apt-get upgrade`
 
 安装：
@@ -6,11 +7,14 @@
 
 配置姓名：
 `git config --global user.name "zb"`
+
 配置邮箱：
 `git config --global user.email "root@linuxidc.net"`
 
 `git config --list`
 
+查看更多git命令
+`git --help`
 
 
 

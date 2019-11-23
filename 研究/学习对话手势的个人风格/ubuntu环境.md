@@ -135,10 +135,21 @@ export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY
 
 ##### 3.3. cuDNN
 
+3.3.1 解压cuDNN
 
-
-
-
+3.3.2 复制cuDNN内容到cuda相关文件夹内：
+```
+cd cudnn-9.0-linux-x64-v7.6.2.24
+```
+```
+sudo cp cuda/include/cudnn.h    /usr/local/cuda/include
+```
+```
+sudo cp cuda/lib64/libcudnn*    /usr/local/cuda/lib64
+```
+```
+sudo chmod a+r /usr/local/cuda/include/cudnn.h  /usr/local/cuda/lib64/libcudnn*
+```
 
 
 ---

@@ -33,6 +33,24 @@ pip install -r requirments.txt
 ##### 3.1. GCC 降级
 
 由于CUDA 9.0仅支持GCC 6.0及以下版本，而Ubuntu 19.10预装GCC版本为9.0，故手动进行降级：
+
+修改源
+```
+sudo gedit /etc/apt/sources.list
+```
+
+在打开的文件中最后面加上这两行
+```
+deb http://dk.archive.ubuntu.com/ubuntu/ xenial main
+deb http://dk.archive.ubuntu.com/ubuntu/ xenial universe
+```
+
+更新源
+```
+sudo apt update
+```
+
+安装
 ```
 sudo apt-get install gcc-4.8
 ```

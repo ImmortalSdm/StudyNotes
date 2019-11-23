@@ -91,7 +91,10 @@ sudo ln -s g++-4.8 g++
 
 再查看gcc和g++版本号：
 ```
-gcc -v g++ -v
+gcc -v
+```
+```
+g++ -v
 ```
 均显示gcc version 4.8 ，说明gcc 4.8安装成功。
 

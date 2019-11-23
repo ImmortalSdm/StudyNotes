@@ -102,7 +102,47 @@ g++ -v
 
 ##### 3.2. 安装cuda 及其补丁
 
+```
+sudo sh cuda_9.0.176_384.81_linux.run
+```
+之前已经安装过显卡驱动程序，故在提问是否安装显卡驱动时选择no
+
+其他选择默认路径或者yes即可。
+
+然后，继续执行以下操作安装4个 patch ：
+```
+sudo sh cuda_9.0.176.1_linux.run
+```
+```
+sudo sh cuda_9.0.176.2_linux.run
+```
+```
+sudo sh cuda_9.0.176.3_linux.run
+```
+```
+sudo sh cuda_9.0.176.4_linux.run
+```
+
+将以下两条加入.bashrc文件中
+```
+sudo vim ~/.bashrc
+```
+
+```
+export PATH=/usr/local/cuda-9.0/bin${PATH:+:$PATH}} 
+export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+```
+
+##### 3.3. cuDNN
+
+
+
+
+
+
+
 ---
+## 提取数据
 
 extract
 ```
@@ -110,13 +150,14 @@ python -m data.train_test_data_extraction.extract_data_for_training --base_datas
 ```
 
 
-
-训练
+---
+## 训练
 ```
 python -m audio_to_multiple_pose_gan.train --gans 1 --name test_run --arch_g audio_to_pose_gans --arch_d pose_D --speaker oliver --output_path ../tmp
 ```
 
-预测
+---
+## 预测
 ```
 python -m audio_to_multiple_pose_gan.predict_to_videos --train_csv ../train.csv --seq_len 64 --output_path ../tmp/my_output_folder --speaker oliver -ag audio_to_pose_gans --gans 1
 ```

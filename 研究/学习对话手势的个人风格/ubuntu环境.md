@@ -178,14 +178,9 @@ python -m audio_to_multiple_pose_gan.train --gans 1 --name test_run --arch_g aud
 ```
 
 ---
-## 预测
-```
-python -m audio_to_multiple_pose_gan.predict_to_videos --train_csv ../train.csv --seq_len 64  --speaker oliver -ag audio_to_pose_gans --gans 1
-```
 
 
 
----
 
 ？？？
 

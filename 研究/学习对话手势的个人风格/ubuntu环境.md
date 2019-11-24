@@ -129,7 +129,7 @@ sudo vim ~/.bashrc
 ```
 
 ```
-export PATH=/usr/local/cuda-9.0/bin${PATH:+:$PATH}} 
+export PATH=/usr/local/cuda-9.0/bin${PATH:+:$PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
 
@@ -167,6 +167,11 @@ python -m data.train_test_data_extraction.extract_data_for_training --base_datas
 
 
 ---
+## 激活anaconda环境
+```
+source activate speech2gesture_env_py27
+```
+
 ## 训练
 ```
 python -m audio_to_multiple_pose_gan.train --gans 1 --name test_run --arch_g audio_to_pose_gans --arch_d pose_D --speaker oliver --output_path ../tmp
@@ -175,7 +180,7 @@ python -m audio_to_multiple_pose_gan.train --gans 1 --name test_run --arch_g aud
 ---
 ## 预测
 ```
-python -m audio_to_multiple_pose_gan.predict_to_videos --train_csv ../train.csv --seq_len 64 --output_path ../tmp/my_output_folder --speaker oliver -ag audio_to_pose_gans --gans 1
+python -m audio_to_multiple_pose_gan.predict_to_videos --train_csv ../train.csv --seq_len 64  --speaker oliver -ag audio_to_pose_gans --gans 1
 ```
 
 

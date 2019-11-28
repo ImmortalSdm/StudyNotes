@@ -17,4 +17,12 @@ chmod -R -v 777 <文件/文件夹>
 ```
 tar   zxvf    <.tgz文件>  -C  <指定目录>
 ```
+
+
+```
+cd ~/.local/share/Trash/
+
+rm -rf files/*
+```
+
 ---

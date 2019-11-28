@@ -14,15 +14,14 @@ cp -R -v <源文件/文件夹> <目标文件/文件夹>
 chmod -R -v 777 <文件/文件夹>
 ```
 
+##### 解压tgz文件
 ```
 tar   zxvf    <.tgz文件>  -C  <指定目录>
 ```
 
-
+##### 清空回收站
 ```
 cd ~/.local/share/Trash/
 
 rm -rf files/*
 ```
-
----

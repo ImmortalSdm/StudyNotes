@@ -25,3 +25,4 @@ cd ~/.local/share/Trash/
 
 rm -rf files/*
 ```
+还要从长计议

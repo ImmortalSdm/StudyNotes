@@ -26,3 +26,15 @@ cd ~/.local/share/Trash/
 rm -rf files/*
 ```
 还要从长计议
+
+##### 查看显卡内存
+
+```
+watch -n 1 nvidia-smi
+```
+
+##### 杀死进程
+
+```
+kill -9 <进程号PID>
+```

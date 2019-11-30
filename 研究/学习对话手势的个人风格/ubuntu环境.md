@@ -174,7 +174,7 @@ source activate speech2gesture_env_py27
 
 ## 训练
 ```
-python -m audio_to_multiple_pose_gan.train --gans 1 --name test_run --arch_g audio_to_pose_gans --arch_d D_patchgan --speaker oliver --output_path ../tmp --train_csv ../train.csv
+python -m audio_to_multiple_pose_gan.train --gans 1 --name test_run --arch_g audio_to_pose_gans --arch_d D_patchgan --speaker oliver --output_path ../tmp --train_csv ../train.csv --batch_size 32
 ```
 
 ---

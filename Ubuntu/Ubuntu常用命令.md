@@ -30,11 +30,17 @@ rm -rf files/*
 ##### 查看显卡内存
 
 ```
-watch -n 1 nvidia-smi
+watch -n 3 nvidia-smi
 ```
 
 ##### 杀死进程
 
 ```
 kill -9 <进程号PID>
+```
+
+##### 内存界面
+
+```
+top
 ```

@@ -32,7 +32,9 @@ rm -rf files/*
 ```
 watch -n 3 nvidia-smi
 ```
-
+```
+watch -n 3 nvidia-smi -a --display=utilization
+```
 ##### 杀死进程
 
 ```

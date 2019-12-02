@@ -1,3 +1,7 @@
+##### 更新
+```
+sudo apt-get update
+```
 
 ##### 删除
 ```
@@ -45,4 +49,10 @@ kill -9 <进程号PID>
 
 ```
 top
+```
+
+##### deb
+
+```
+sudo dpkg -i <package.deb>
 ```

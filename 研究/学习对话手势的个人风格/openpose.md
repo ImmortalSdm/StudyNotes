@@ -435,7 +435,47 @@ sudo ln -s /usr/bin/g++-4.8* /usr/bin/g++.bak -f
 sudo ln -s /usr/bin/g++-9* /usr/bin/g++ -f
 sudo ln -s /usr/bin/g++-9* /usr/bin/g++.bak -f
 ```
+
+
+##### remove the gcc  error from the CUDA header
+
+```
+sudo vim /usr/local/cuda/include/crt/host_config.h
+```
+
+```
+//#if __GNUC__ > 6
+
+/*#error -- unsupported GNU version! gcc versions later than 6 are not suppo    rted! */
+
+//#endif
+/* __GNUC__ > 6 */
+```
+
+```
+sudo apt-get autoremove libprotobuf-dev protobuf-compiler
+```
+
+然后从src编译protobuf-2.5.0并安装
+编译protobuf时请配置gcc
+./configure --prefix=/usr/local/ CC=/usr/bin/gcc
+
+https://github.com/BVLC/caffe/issues/3046
+
+https://blog.csdn.net/e01528/article/details/79532462
+
+https://zhuanlan.zhihu.com/p/27838195
+
+```
+make clean
+make
+make check
+make install
+```
+
 ---
+
+
 
 #### 编译
 

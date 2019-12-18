@@ -119,9 +119,13 @@ sudo vim /usr/local/cuda/include/crt/host_config.h
 ```
 
 将
-`#error-- unsupported GNU version! gcc versionslater than 6 are not supported!`
+```
+#error-- unsupported GNU version! gcc versionslater than 6 are not supported!
+```
 改为
-`//#error-- unsupported GNU version! gcc versionslater than 6 are not supported!`
+```
+//#error-- unsupported GNU version! gcc versionslater than 6 are not supported!
+```
 
 
 

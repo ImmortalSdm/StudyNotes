@@ -108,8 +108,10 @@ sudo vim Makefile.config
 ```
 sudo vim Makefile
 ```
-- 将`NVCCFLAGS +=-ccbin=$(CXX) -Xcompiler-fPIC$(COMMON_FLAGS)``
-替换为`NVCCFLAGS += -D_FORCE_INLINES -ccbin=$(CXX) -Xcompiler -fPIC $(COMMON_FLAGS)``
+- 将
+`NVCCFLAGS +=-ccbin=$(CXX) -Xcompiler-fPIC$(COMMON_FLAGS)`
+替换为
+`NVCCFLAGS += -D_FORCE_INLINES -ccbin=$(CXX) -Xcompiler -fPIC $(COMMON_FLAGS)`
 - 将`LIBRARIES += hdf5_hl hdf5`
 改为`LIBRARIES += hdf5_serial_hl hdf5_serial`
 
@@ -127,16 +129,35 @@ sudo vim /usr/local/cuda/include/crt/host_config.h
 //#error-- unsupported GNU version! gcc versionslater than 6 are not supported!
 ```
 
+#### 错误解决
+```
+sudo vim Makefile
+```
 
+- 添加`-std=c++11`至如下位置处：
+![img](https://img-blog.csdnimg.cn/20191023165259670.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMwMDExMjc3,size_16,color_FFFFFF,t_70)
 
+```
+ll /usr/bin/gcc*
 
+sudo ln -s /usr/bin/gcc-4.8 /usr/bin/gcc -f
+sudo ln -s /usr/bin/gcc++-4.8 /usr/bin/gcc -f
+sudo ln -s /usr/bin/g++-4.8 /usr/bin/gcc -f
 
+sudo ln -s /usr/bin/gcc-4.8* /usr/bin/gcc -f
+gcc --version
 
+sudo ln -s /usr/bin/g++-4.8* /usr/bin/gcc -f
+g++ --version
 
+```
 
+#### 编译
 
-
-
+```
+sudo make clean
+sudo make all -j8
+```
 
 
 

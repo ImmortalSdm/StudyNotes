@@ -128,8 +128,8 @@ sudo vim /usr/local/cuda/include/crt/host_config.h
 ```
 //#error-- unsupported GNU version! gcc versionslater than 6 are not supported!
 ```
-
-#### 错误解决
+---
+### 错误解决
 ```
 sudo vim Makefile
 ```
@@ -137,20 +137,34 @@ sudo vim Makefile
 - 添加`-std=c++11`至如下位置处：
 ![img](https://img-blog.csdnimg.cn/20191023165259670.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMwMDExMjc3,size_16,color_FFFFFF,t_70)
 
+---
+
+这里始终是高版本的gcc
+```
+cat /proc/driver/nvidia/version
+```
+
 ```
 ll /usr/bin/gcc*
-
-sudo ln -s /usr/bin/gcc-4.8 /usr/bin/gcc -f
-sudo ln -s /usr/bin/gcc++-4.8 /usr/bin/gcc -f
-sudo ln -s /usr/bin/g++-4.8 /usr/bin/gcc -f
-
-sudo ln -s /usr/bin/gcc-4.8* /usr/bin/gcc -f
-gcc --version
-
-sudo ln -s /usr/bin/g++-4.8* /usr/bin/gcc -f
-g++ --version
+```
 
 ```
+sudo ln -s /usr/bin/gcc-4.8* /usr/bin/gcc -f
+sudo ln -s /usr/bin/gcc-ar-4.8* /usr/bin/gcc-ar -f
+sudo ln -s /usr/bin/gcc-4.8* /usr/bin/gcc.bak -f
+sudo ln -s /usr/bin/gcc-nm-4.8* /usr/bin/gcc-nm -f
+sudo ln -s /usr/bin/gcc-ranlib-4.8* /usr/bin/gcc-ranlib -f
+```
+
+```
+sudo ln -s /usr/bin/gcc-9* /usr/bin/gcc -f
+sudo ln -s /usr/bin/gcc-ar-9* /usr/bin/gcc-ar -f
+sudo ln -s /usr/bin/gcc-9* /usr/bin/gcc.bak -f
+sudo ln -s /usr/bin/gcc-nm-9* /usr/bin/gcc-nm -f
+sudo ln -s /usr/bin/gcc-ranlib-9* /usr/bin/gcc-ranlib -f
+```
+
+---
 
 #### 编译
 

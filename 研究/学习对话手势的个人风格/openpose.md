@@ -402,10 +402,7 @@ make: *** [Makefile:643：.build_release/examples/siamese/convert_mnist_siamese_
 cat /proc/driver/nvidia/version
 ```
 ##### gcc
-```
-ll /usr/bin/gcc*
 
-```
 
 ```
 sudo ln -s /usr/bin/gcc-4.8* /usr/bin/gcc -f
@@ -413,30 +410,32 @@ sudo ln -s /usr/bin/gcc-ar-4.8* /usr/bin/gcc-ar -f
 sudo ln -s /usr/bin/gcc-4.8* /usr/bin/gcc.bak -f
 sudo ln -s /usr/bin/gcc-nm-4.8* /usr/bin/gcc-nm -f
 sudo ln -s /usr/bin/gcc-ranlib-4.8* /usr/bin/gcc-ranlib -f
-```
-
-```
-sudo ln -s /usr/bin/gcc-9* /usr/bin/gcc -f
-sudo ln -s /usr/bin/gcc-ar-9* /usr/bin/gcc-ar -f
-sudo ln -s /usr/bin/gcc-9* /usr/bin/gcc.bak -f
-sudo ln -s /usr/bin/gcc-nm-9* /usr/bin/gcc-nm -f
-sudo ln -s /usr/bin/gcc-ranlib-9* /usr/bin/gcc-ranlib -f
-```
-
-```
-ll /usr/bin/g++*
-```
-
-```
 sudo ln -s /usr/bin/g++-4.8* /usr/bin/g++ -f
 sudo ln -s /usr/bin/g++-4.8* /usr/bin/g++.bak -f
 ```
+
 ```
-sudo ln -s /usr/bin/g++-9* /usr/bin/g++ -f
-sudo ln -s /usr/bin/g++-9* /usr/bin/g++.bak -f
+sudo ln -s /usr/bin/x86_64-linux-gnu-gcc-9* /usr/bin/gcc -f
+sudo ln -s /usr/bin/x86_64-linux-gnu-gcc-ar-9* /usr/bin/gcc-ar -f
+sudo ln -s /usr/bin/x86_64-linux-gnu-gcc-9* /usr/bin/gcc.bak -f
+sudo ln -s /usr/bin/x86_64-linux-gnu-gcc-nm-9* /usr/bin/gcc-nm -f
+sudo ln -s /usr/bin/x86_64-linux-gnu-gcc-ranlib-9* /usr/bin/gcc-ranlib -f
+sudo ln -s /usr/bin/x86_64-linux-gnu-g++-9* /usr/bin/g++ -f
+sudo ln -s /usr/bin/x86_64-linux-gnu-g++-9* /usr/bin/g++.bak -f
+```
+```
+sudo ln -s /usr/bin/gcc-4.8* /usr/bin/gcc -f
+sudo ln -s /usr/bin/g++-4.8* /usr/bin/g++ -f
+```
+```
+sudo ln -s /usr/bin/x86_64-linux-gnu-gcc-9* /usr/bin/gcc -f
+sudo ln -s /usr/bin/x86_64-linux-gnu-g++-9* /usr/bin/g++ -f
 ```
 
-
+```
+ll /usr/bin/gcc*
+ll /usr/bin/g++*
+```
 ##### remove the gcc  error from the CUDA header
 
 ```
@@ -466,7 +465,7 @@ sudo make clean
 ./autogen.sh
 ./configure --prefix=/usr/local/ CC=/usr/bin/gcc
 sudo make -j12
-sudo make check
+
 sudo make install
 ```
 
@@ -490,6 +489,150 @@ protoc --version
 sudo make clean
 sudo make all -j12
 ```
+报错
+```
+src/caffe/util/io.cpp: In function ‘bool caffe::ReadProtoFromBinaryFile(const char*, google::protobuf::Message*)’:
+src/caffe/util/io.cpp:57:66: warning: ‘void google::protobuf::io::CodedInputStream::SetTotalBytesLimit(int, int)’ is deprecated (declared at /usr/local/include/google/protobuf/io/coded_stream.h:397): Please use the single parameter version of SetTotalBytesLimit(). The second parameter is ignored. [-Wdeprecated-declarations]
+   coded_input->SetTotalBytesLimit(kProtoReadBytesLimit, 536870912);
+                                                                  ^
+AR -o .build_release/lib/libcaffe.a
+LD -o .build_release/lib/libcaffe.so.1.0.0
+CXX/LD -o .build_release/tools/compute_image_mean.bin
+CXX/LD -o .build_release/tools/upgrade_solver_proto_text.bin
+CXX/LD -o .build_release/tools/upgrade_net_proto_binary.bin
+CXX/LD -o .build_release/tools/extract_features.bin
+CXX/LD -o .build_release/tools/convert_imageset.bin
+CXX/LD -o .build_release/tools/caffe.bin
+CXX/LD -o .build_release/tools/upgrade_net_proto_text.bin
+CXX/LD -o .build_release/examples/cifar10/convert_cifar_data.bin
+CXX/LD -o .build_release/examples/cpp_classification/classification.bin
+CXX/LD -o .build_release/examples/siamese/convert_mnist_siamese_data.bin
+CXX/LD -o .build_release/examples/mnist/convert_mnist_data.bin
+/usr/bin/ld: .build_release/tools/compute_image_mean.o: in function `std::string* google::MakeCheckOpString<int, int>(int const&, int const&, char const*)':
+compute_image_mean.cpp:(.text._ZN6google17MakeCheckOpStringIiiEEPSsRKT_RKT0_PKc[_ZN6google17MakeCheckOpStringIiiEEPSsRKT_RKT0_PKc]+0x43): undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/tools/compute_image_mean.o: in function `std::string* google::MakeCheckOpString<unsigned long, int>(unsigned long const&, int const&, char const*)':
+compute_image_mean.cpp:(.text._ZN6google17MakeCheckOpStringImiEEPSsRKT_RKT0_PKc[_ZN6google17MakeCheckOpStringImiEEPSsRKT_RKT0_PKc]+0x43): undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/tools/compute_image_mean.o: in function `_GLOBAL__sub_I_compute_image_mean.cpp':
+compute_image_mean.cpp:(.text.startup+0x8b): undefined reference to `google::FlagRegisterer::FlagRegisterer<std::string>(char const*, char const*, char const*, std::string*, std::string*)'
+/usr/bin/ld: .build_release/tools/compute_image_mean.o: in function `main':
+compute_image_mean.cpp:(.text.startup+0x13f): undefined reference to `google::SetUsageMessage(std::string const&)'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::DB::Open(leveldb::Options const&, std::string const&, leveldb::DB**)'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::Status::ToString() const'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:638：.build_release/tools/compute_image_mean.bin] 错误 1
+make: *** 正在等待未完成的任务....
+/usr/bin/ld: .build_release/tools/convert_imageset.o: in function `std::string* google::MakeCheckOpString<unsigned long, int>(unsigned long const&, int const&, char const*)':
+convert_imageset.cpp:(.text._ZN6google17MakeCheckOpStringImiEEPSsRKT_RKT0_PKc[_ZN6google17MakeCheckOpStringImiEEPSsRKT_RKT0_PKc]+0x43): undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/tools/convert_imageset.o: in function `_GLOBAL__sub_I_convert_imageset.cpp':
+convert_imageset.cpp:(.text.startup+0xef): undefined reference to `google::FlagRegisterer::FlagRegisterer<std::string>(char const*, char const*, char const*, std::string*, std::string*)'
+/usr/bin/ld: convert_imageset.cpp:(.text.startup+0x250): undefined reference to `google::FlagRegisterer::FlagRegisterer<std::string>(char const*, char const*, char const*, std::string*, std::string*)'
+/usr/bin/ld: .build_release/tools/convert_imageset.o: in function `main':
+convert_imageset.cpp:(.text.startup+0x313): undefined reference to `google::SetUsageMessage(std::string const&)'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::DB::Open(leveldb::Options const&, std::string const&, leveldb::DB**)'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::Status::ToString() const'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:638：.build_release/tools/convert_imageset.bin] 错误 1
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::DB::Open(leveldb::Options const&, std::string const&, leveldb::DB**)'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::Status::ToString() const'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:638：.build_release/tools/upgrade_solver_proto_text.bin] 错误 1
+/usr/bin/ld: .build_release/examples/cpp_classification/classification.o: in function `std::string* google::MakeCheckOpString<int, int>(int const&, int const&, char const*)':
+classification.cpp:(.text._ZN6google17MakeCheckOpStringIiiEEPSsRKT_RKT0_PKc[_ZN6google17MakeCheckOpStringIiiEEPSsRKT_RKT0_PKc]+0x43): undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/examples/cpp_classification/classification.o: in function `std::string* google::MakeCheckOpString<unsigned long, int>(unsigned long const&, int const&, char const*)':
+classification.cpp:(.text._ZN6google17MakeCheckOpStringImiEEPSsRKT_RKT0_PKc[_ZN6google17MakeCheckOpStringImiEEPSsRKT_RKT0_PKc]+0x43): undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::DB::Open(leveldb::Options const&, std::string const&, leveldb::DB**)'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::Status::ToString() const'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:643：.build_release/examples/cpp_classification/classification.bin] 错误 1
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::DB::Open(leveldb::Options const&, std::string const&, leveldb::DB**)'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::Status::ToString() const'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:638：.build_release/tools/upgrade_net_proto_binary.bin] 错误 1
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::DB::Open(leveldb::Options const&, std::string const&, leveldb::DB**)'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::Status::ToString() const'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:638：.build_release/tools/upgrade_net_proto_text.bin] 错误 1
+/usr/bin/ld: .build_release/tools/caffe.o: in function `std::string* google::MakeCheckOpString<cudaError, cudaError>(cudaError const&, cudaError const&, char const*)':
+caffe.cpp:(.text._ZN6google17MakeCheckOpStringI9cudaErrorS1_EEPSsRKT_RKT0_PKc[_ZN6google17MakeCheckOpStringI9cudaErrorS1_EEPSsRKT_RKT0_PKc]+0x43): undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/tools/caffe.o: in function `std::string* google::MakeCheckOpString<unsigned long, int>(unsigned long const&, int const&, char const*)':
+caffe.cpp:(.text._ZN6google17MakeCheckOpStringImiEEPSsRKT_RKT0_PKc[_ZN6google17MakeCheckOpStringImiEEPSsRKT_RKT0_PKc]+0x43): undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/tools/caffe.o: in function `main':
+caffe.cpp:(.text.startup+0x3e): undefined reference to `google::SetVersionString(std::string const&)'
+/usr/bin/ld: caffe.cpp:(.text.startup+0x6e): undefined reference to `google::SetUsageMessage(std::string const&)'
+/usr/bin/ld: .build_release/tools/caffe.o: in function `_GLOBAL__sub_I_caffe.cpp':
+caffe.cpp:(.text.startup+0x3b4): undefined reference to `google::FlagRegisterer::FlagRegisterer<std::string>(char const*, char const*, char const*, std::string*, std::string*)'
+/usr/bin/ld: caffe.cpp:(.text.startup+0x460): undefined reference to `google::FlagRegisterer::FlagRegisterer<std::string>(char const*, char const*, char const*, std::string*, std::string*)'
+/usr/bin/ld: caffe.cpp:(.text.startup+0x505): undefined reference to `google::FlagRegisterer::FlagRegisterer<std::string>(char const*, char const*, char const*, std::string*, std::string*)'
+/usr/bin/ld: caffe.cpp:(.text.startup+0x5aa): undefined reference to `google::FlagRegisterer::FlagRegisterer<std::string>(char const*, char const*, char const*, std::string*, std::string*)'
+/usr/bin/ld: caffe.cpp:(.text.startup+0x67e): undefined reference to `google::FlagRegisterer::FlagRegisterer<std::string>(char const*, char const*, char const*, std::string*, std::string*)'
+/usr/bin/ld: .build_release/tools/caffe.o:caffe.cpp:(.text.startup+0x723): more undefined references to `google::FlagRegisterer::FlagRegisterer<std::string>(char const*, char const*, char const*, std::string*, std::string*)' follow
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::DB::Open(leveldb::Options const&, std::string const&, leveldb::DB**)'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::Status::ToString() const'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:638：.build_release/tools/caffe.bin] 错误 1
+/usr/bin/ld: .build_release/tools/extract_features.o: in function `std::string* google::MakeCheckOpString<int, int>(int const&, int const&, char const*)':
+extract_features.cpp:(.text._ZN6google17MakeCheckOpStringIiiEEPSsRKT_RKT0_PKc[_ZN6google17MakeCheckOpStringIiiEEPSsRKT_RKT0_PKc]+0x43): undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/tools/extract_features.o: in function `std::string* google::MakeCheckOpString<unsigned long, unsigned long>(unsigned long const&, unsigned long const&, char const*)':
+extract_features.cpp:(.text._ZN6google17MakeCheckOpStringImmEEPSsRKT_RKT0_PKc[_ZN6google17MakeCheckOpStringImmEEPSsRKT_RKT0_PKc]+0x44): undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::DB::Open(leveldb::Options const&, std::string const&, leveldb::DB**)'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::Status::ToString() const'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:638：.build_release/tools/extract_features.bin] 错误 1
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::DB::Open(leveldb::Options const&, std::string const&, leveldb::DB**)'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::Status::ToString() const'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:643：.build_release/examples/cifar10/convert_cifar_data.bin] 错误 1
+/usr/bin/ld: .build_release/examples/siamese/convert_mnist_siamese_data.o: in function `convert_dataset(char const*, char const*, char const*)':
+convert_mnist_siamese_data.cpp:(.text+0x4cd): undefined reference to `leveldb::DB::Open(leveldb::Options const&, std::string const&, leveldb::DB**)'
+/usr/bin/ld: .build_release/examples/siamese/convert_mnist_siamese_data.o: in function `std::string* google::MakeCheckOpString<unsigned int, int>(unsigned int const&, int const&, char const*)':
+convert_mnist_siamese_data.cpp:(.text._ZN6google17MakeCheckOpStringIjiEEPSsRKT_RKT0_PKc[_ZN6google17MakeCheckOpStringIjiEEPSsRKT_RKT0_PKc]+0x43): undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/examples/siamese/convert_mnist_siamese_data.o: in function `std::string* google::MakeCheckOpString<unsigned int, unsigned int>(unsigned int const&, unsigned int const&, char const*)':
+convert_mnist_siamese_data.cpp:(.text._ZN6google17MakeCheckOpStringIjjEEPSsRKT_RKT0_PKc[_ZN6google17MakeCheckOpStringIjjEEPSsRKT_RKT0_PKc]+0x43): undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::Status::ToString() const'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:643：.build_release/examples/siamese/convert_mnist_siamese_data.bin] 错误 1
+/usr/bin/ld: .build_release/examples/mnist/convert_mnist_data.o: in function `std::string* google::MakeCheckOpString<unsigned int, int>(unsigned int const&, int const&, char const*)':
+convert_mnist_data.cpp:(.text._ZN6google17MakeCheckOpStringIjiEEPSsRKT_RKT0_PKc[_ZN6google17MakeCheckOpStringIjiEEPSsRKT_RKT0_PKc]+0x43): undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/examples/mnist/convert_mnist_data.o: in function `std::string* google::MakeCheckOpString<unsigned int, unsigned int>(unsigned int const&, unsigned int const&, char const*)':
+convert_mnist_data.cpp:(.text._ZN6google17MakeCheckOpStringIjjEEPSsRKT_RKT0_PKc[_ZN6google17MakeCheckOpStringIjjEEPSsRKT_RKT0_PKc]+0x43): undefined reference to `google::base::CheckOpMessageBuilder::NewString()'
+/usr/bin/ld: .build_release/examples/mnist/convert_mnist_data.o: in function `_GLOBAL__sub_I_convert_mnist_data.cpp':
+convert_mnist_data.cpp:(.text.startup+0x8b): undefined reference to `google::FlagRegisterer::FlagRegisterer<std::string>(char const*, char const*, char const*, std::string*, std::string*)'
+/usr/bin/ld: .build_release/examples/mnist/convert_mnist_data.o: in function `main':
+convert_mnist_data.cpp:(.text.startup+0x114): undefined reference to `google::SetUsageMessage(std::string const&)'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::DB::Open(leveldb::Options const&, std::string const&, leveldb::DB**)'
+/usr/bin/ld: .build_release/lib/libcaffe.so: undefined reference to `leveldb::Status::ToString() const'
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:643：.build_release/examples/mnist/convert_mnist_data.bin] 错误 1
+
+```
+尝试解决
+```
+sudo apt-get install gcc-5
+sudo apt-get install g++-5
+
+cd /usr/bin
+
+sudo mv gcc gcc48.bak
+sudo mv g++ g++48.bak
+
+sudo ln -s gcc-5 gcc
+sudo ln -s g++-5 g++
+```
+然后重新编译protobuf。
+
+然后再试试编译caffe
+```
+sudo make clean
+sudo make all -j12
+sudo make test -j12
+make runtest -j12 # 不可用sudo，cuda环境配置在用户目录下，但是我们sudo runtest 是用的root用户
+```
+成功
+
 
 
 

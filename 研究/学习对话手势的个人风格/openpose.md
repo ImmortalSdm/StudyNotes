@@ -401,7 +401,7 @@ make: *** [Makefile:643：.build_release/examples/siamese/convert_mnist_siamese_
 ```
 cat /proc/driver/nvidia/version
 ```
-
+##### gcc
 ```
 ll /usr/bin/gcc*
 
@@ -452,32 +452,39 @@ sudo vim /usr/local/cuda/include/crt/host_config.h
 /* __GNUC__ > 6 */
 ```
 
+##### protoc
 ```
 sudo apt-get autoremove libprotobuf-dev protobuf-compiler
+sudo apt-get remove libprotobuf-dev
+sudo apt-get remove libprotobuf-compile
+sudo apt-get remove protobuf-compiler
 ```
 
-然后从src编译protobuf-2.5.0并安装
-编译protobuf时请配置gcc
+
+```
+sudo make clean
+./autogen.sh
 ./configure --prefix=/usr/local/ CC=/usr/bin/gcc
-
-https://github.com/BVLC/caffe/issues/3046
-
-https://blog.csdn.net/e01528/article/details/79532462
-
-https://zhuanlan.zhihu.com/p/27838195
+sudo make -j12
+sudo make check
+sudo make install
+```
 
 ```
-make clean
-make
-make check
-make install
+cd /etc/ld.so.conf.d
+sudo touch libprotobuf.conf
+sudo vim libprotobuf.conf # 加入/usr/local/lib
+sudo ldconfig
+protoc --version
 ```
+
+
 
 ---
 
 
 
-#### 编译
+#### 编译caffe
 
 ```
 sudo make clean

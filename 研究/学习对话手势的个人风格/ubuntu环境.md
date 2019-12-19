@@ -86,7 +86,7 @@ ls -l g++*
 > lrwxrwxrwx 1 root root 7th May 15:17 g++ -> g++-7.3
 
 
-需要将g++链接改为g++-4.8：
+需要将g++链接改为g++ -4.8：
 ```
 sudo mv g++ g++.bak
 ```

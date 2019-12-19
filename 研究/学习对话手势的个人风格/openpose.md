@@ -1,31 +1,3 @@
-下载源码
-```
-git clone https://github.com/CMU-Perceptual-Computing-Lab/openpose.git
-```
-
-检查是否需要更新
-```
-git pull origin master
-```
-
-安装cmake-gui
-```
-sudo apt-get install cmake-qt-gui
-```
-
-下载模型
-```
-cd models
-./getModels.sh
-```
-
-创建build文件
-```
-cd ..
-mkdir build
-```
-
----
 
 ## opencv
 ```
@@ -95,6 +67,7 @@ sudo cp Makefile.config.example Makefile.config
 
 #### 修改配置文件Makefile.config：
 ```
+cd /home/zb/OpenPoseFile/caffe
 sudo vim Makefile.config
 ```
 
@@ -631,9 +604,278 @@ sudo make all -j12
 sudo make test -j12
 make runtest -j12 # 不可用sudo，cuda环境配置在用户目录下，但是我们sudo runtest 是用的root用户
 ```
+成功!
+
+
+
+
+---
+
+## 正式openpose
+
+下载源码
+```
+git clone https://github.com/CMU-Perceptual-Computing-Lab/openpose.git
+```
+
+检查是否需要更新
+```
+git pull origin master
+```
+
+安装cmake-gui
+```
+sudo apt-get install cmake-qt-gui
+```
+
+下载模型
+```
+cd models
+./getModels.sh
+```
+
+创建build文件
+```
+cd ..
+mkdir build
+```
+
+打开
+```
+cmake-gui
+```
+
+```
+cd /home/zb/OpenPoseFile/caffe
+sudo protoc src/caffe/proto/caffe.proto --cpp_out=.
+sudo mkdir include/caffe/proto
+sudo mv src/caffe/proto/caffe.pb.h include/caffe/proto
+```
+
+```
+cd /home/zb/OpenPoseFile/openpose/build
+sudo make clean
+sudo make -j12
+```
+
+报错
+```
+nvcc fatal   : Unsupported gpu architecture 'compute_75'
+CMake Error at openpose_generated_pyramidalLK.cu.o.Release.cmake:219 (message):
+  Error generating
+  /home/zb/OpenPoseFile/openpose/build/src/openpose/CMakeFiles/openpose.dir/tracking/./openpose_generated_pyramidalLK.cu.o
+
+
+make[2]: *** [src/openpose/CMakeFiles/openpose.dir/build.make:121：src/openpose/CMakeFiles/openpose.dir/tracking/openpose_generated_pyramidalLK.cu.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+nvcc fatal   : Unsupported gpu architecture 'compute_75'
+CMake Error at openpose_generated_renderFace.cu.o.Release.cmake:219 (message):
+  Error generating
+  /home/zb/OpenPoseFile/openpose/build/src/openpose/CMakeFiles/openpose.dir/face/./openpose_generated_renderFace.cu.o
+
+
+make[2]: *** [src/openpose/CMakeFiles/openpose.dir/build.make:65：src/openpose/CMakeFiles/openpose.dir/face/openpose_generated_renderFace.cu.o] 错误 1
+nvcc fatal   : Unsupported gpu architecture 'compute_75'
+CMake Error at openpose_generated_cuda.cu.o.Release.cmake:219 (message):
+  Error generating
+  /home/zb/OpenPoseFile/openpose/build/src/openpose/CMakeFiles/openpose.dir/gpu/./openpose_generated_cuda.cu.o
+
+
+nvcc fatal   : Unsupported gpu architecture 'compute_75'
+CMake Error at openpose_generated_renderHand.cu.o.Release.cmake:219 (message):
+  Error generating
+  /home/zb/OpenPoseFile/openpose/build/src/openpose/CMakeFiles/openpose.dir/hand/./openpose_generated_renderHand.cu.o
+
+
+[  4%] Building CXX object src/openpose/core/CMakeFiles/openpose_core.dir/cvMatToOpOutput.cpp.o
+make[2]: *** [src/openpose/CMakeFiles/openpose.dir/build.make:72：src/openpose/CMakeFiles/openpose.dir/gpu/openpose_generated_cuda.cu.o] 错误 1
+make[2]: *** [src/openpose/CMakeFiles/openpose.dir/build.make:79：src/openpose/CMakeFiles/openpose.dir/hand/openpose_generated_renderHand.cu.o] 错误 1
+nvcc fatal   : Unsupported gpu architecture 'compute_75'
+CMake Error at openpose_generated_nmsBase.cu.o.Release.cmake:219 (message):
+  Error generating
+  /home/zb/OpenPoseFile/openpose/build/src/openpose/CMakeFiles/openpose.dir/net/./openpose_generated_nmsBase.cu.o
+
+
+nvcc fatal   : Unsupported gpu architecture 'compute_75'
+CMake Error at openpose_generated_bodyPartConnectorBase.cu.o.Release.cmake:219 (message):
+  Error generating
+  /home/zb/OpenPoseFile/openpose/build/src/openpose/CMakeFiles/openpose.dir/net/./openpose_generated_bodyPartConnectorBase.cu.o
+
+
+[  5%] Building CXX object src/openpose/core/CMakeFiles/openpose_core.dir/datum.cpp.o
+make[2]: *** [src/openpose/CMakeFiles/openpose.dir/build.make:86：src/openpose/CMakeFiles/openpose.dir/net/openpose_generated_bodyPartConnectorBase.cu.o] 错误 1
+make[2]: *** [src/openpose/CMakeFiles/openpose.dir/build.make:100：src/openpose/CMakeFiles/openpose.dir/net/openpose_generated_nmsBase.cu.o] 错误 1
+nvcc fatal   : Unsupported gpu architecture 'compute_75'
+CMake Error at openpose_generated_resizeAndMergeBase.cu.o.Release.cmake:219 (message):
+  Error generating
+  /home/zb/OpenPoseFile/openpose/build/src/openpose/CMakeFiles/openpose.dir/net/./openpose_generated_resizeAndMergeBase.cu.o
+
+
+make[2]: *** [src/openpose/CMakeFiles/openpose.dir/build.make:107：src/openpose/CMakeFiles/openpose.dir/net/openpose_generated_resizeAndMergeBase.cu.o] 错误 1
+[  5%] Building CXX object src/openpose/core/CMakeFiles/openpose_core.dir/defineTemplates.cpp.o
+[  5%] Building CXX object src/openpose/core/CMakeFiles/openpose_core.dir/gpuRenderer.cpp.o
+nvcc fatal   : Unsupported gpu architecture 'compute_75'
+CMake Error at openpose_generated_maximumBase.cu.o.Release.cmake:219 (message):
+  Error generating
+  /home/zb/OpenPoseFile/openpose/build/src/openpose/CMakeFiles/openpose.dir/net/./openpose_generated_maximumBase.cu.o
+
+
+make[2]: *** [src/openpose/CMakeFiles/openpose.dir/build.make:93：src/openpose/CMakeFiles/openpose.dir/net/openpose_generated_maximumBase.cu.o] 错误 1
+nvcc fatal   : Unsupported gpu architecture 'compute_75'
+CMake Error at openpose_generated_renderPose.cu.o.Release.cmake:219 (message):
+  Error generating
+  /home/zb/OpenPoseFile/openpose/build/src/openpose/CMakeFiles/openpose.dir/pose/./openpose_generated_renderPose.cu.o
+
+
+make[2]: *** [src/openpose/CMakeFiles/openpose.dir/build.make:114：src/openpose/CMakeFiles/openpose.dir/pose/openpose_generated_renderPose.cu.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:187：src/openpose/CMakeFiles/openpose.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+[  6%] Building CXX object src/openpose/core/CMakeFiles/openpose_core.dir/keepTopNPeople.cpp.o
+[  6%] Building CXX object src/openpose/core/CMakeFiles/openpose_core.dir/keypointScaler.cpp.o
+[  6%] Building CXX object src/openpose/core/CMakeFiles/openpose_core.dir/matrix.cpp.o
+[  6%] Building CXX object src/openpose/core/CMakeFiles/openpose_core.dir/opOutputToCvMat.cpp.o
+[  7%] Building CXX object src/openpose/core/CMakeFiles/openpose_core.dir/point.cpp.o
+[  7%] Building CXX object src/openpose/core/CMakeFiles/openpose_core.dir/rectangle.cpp.o
+[  7%] Building CXX object src/openpose/core/CMakeFiles/openpose_core.dir/renderer.cpp.o
+In file included from /home/zb/OpenPoseFile/openpose/src/openpose/core/arrayCpuGpu.cpp:3:0:
+/home/zb/OpenPoseFile/caffe/include/caffe/blob.hpp: In instantiation of ‘std::__cxx11::string caffe::Blob<Dtype>::shape_string() const [with Dtype = int; std::__cxx11::string = std::__cxx11::basic_string<char>]’:
+/home/zb/OpenPoseFile/openpose/src/openpose/core/arrayCpuGpu.cpp:209:58:   required from ‘std::__cxx11::string op::ArrayCpuGpu<T>::shape_string() const [with T = int; std::__cxx11::string = std::__cxx11::basic_string<char>]’
+/home/zb/OpenPoseFile/openpose/src/openpose/core/arrayCpuGpu.cpp:890:5:   required from here
+/home/zb/OpenPoseFile/caffe/include/caffe/blob.hpp:56:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < shape_.size(); ++i) {
+                       ^
+/home/zb/OpenPoseFile/caffe/include/caffe/blob.hpp: In instantiation of ‘std::__cxx11::string caffe::Blob<Dtype>::shape_string() const [with Dtype = unsigned int; std::__cxx11::string = std::__cxx11::basic_string<char>]’:
+/home/zb/OpenPoseFile/openpose/src/openpose/core/arrayCpuGpu.cpp:209:58:   required from ‘std::__cxx11::string op::ArrayCpuGpu<T>::shape_string() const [with T = unsigned int; std::__cxx11::string = std::__cxx11::basic_string<char>]’
+/home/zb/OpenPoseFile/openpose/src/openpose/core/arrayCpuGpu.cpp:890:5:   required from here
+/home/zb/OpenPoseFile/caffe/include/caffe/blob.hpp:56:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/zb/OpenPoseFile/caffe/include/caffe/blob.hpp: In instantiation of ‘std::__cxx11::string caffe::Blob<Dtype>::shape_string() const [with Dtype = float; std::__cxx11::string = std::__cxx11::basic_string<char>]’:
+/home/zb/OpenPoseFile/openpose/src/openpose/core/arrayCpuGpu.cpp:209:58:   required from ‘std::__cxx11::string op::ArrayCpuGpu<T>::shape_string() const [with T = float; std::__cxx11::string = std::__cxx11::basic_string<char>]’
+/home/zb/OpenPoseFile/openpose/src/openpose/core/arrayCpuGpu.cpp:890:5:   required from here
+/home/zb/OpenPoseFile/caffe/include/caffe/blob.hpp:56:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/zb/OpenPoseFile/caffe/include/caffe/blob.hpp: In instantiation of ‘std::__cxx11::string caffe::Blob<Dtype>::shape_string() const [with Dtype = double; std::__cxx11::string = std::__cxx11::basic_string<char>]’:
+/home/zb/OpenPoseFile/openpose/src/openpose/core/arrayCpuGpu.cpp:209:58:   required from ‘std::__cxx11::string op::ArrayCpuGpu<T>::shape_string() const [with T = double; std::__cxx11::string = std::__cxx11::basic_string<char>]’
+/home/zb/OpenPoseFile/openpose/src/openpose/core/arrayCpuGpu.cpp:890:5:   required from here
+/home/zb/OpenPoseFile/caffe/include/caffe/blob.hpp:56:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+[  8%] Building CXX object src/openpose/core/CMakeFiles/openpose_core.dir/scaleAndSizeExtractor.cpp.o
+[  8%] Building CXX object src/openpose/core/CMakeFiles/openpose_core.dir/string.cpp.o
+[  8%] Building CXX object src/openpose/core/CMakeFiles/openpose_core.dir/verbosePrinter.cpp.o
+[  9%] Linking CXX shared library libopenpose_core.so
+[  9%] Built target openpose_core
+make: *** [Makefile:130：all] 错误 2
+
+```
+
+
+
+
+> 在openpose / cmake / Cuda.cmake 列表中注释以下行（APPEND CUDA_NVCC_FLAGS $ {NVCC_FLAGS_EXTRA}）
+
+
+
+```
+cd /home/zb/OpenPoseFile/openpose/build
+make clean
+make -j`nproc`
+```
 成功
 
+---
+
+运行
+
+```
+./build/examples/openpose/openpose.bin --video examples/media/video.avi
+```
+
+```
+Starting OpenPose demo...
+Configuring OpenPose...
+Starting thread(s)...
+Auto-detecting all available GPUs... Detected 1 GPU(s), using 1 of them starting at GPU 0.
+[libprotobuf ERROR google/protobuf/message_lite.cc:123] Can't parse message of type "caffe.NetParameter" because it is missing required fields: layer[0].clip_param.min, layer[0].clip_param.max
+F1219 17:32:23.850667 32687 upgrade_proto.cpp:97] Check failed: ReadProtoFromBinaryFile(param_file, param) Failed to parse NetParameter file: models/pose/body_25/pose_iter_584000.caffemodel
+*** Check failure stack trace: ***
+    @     0x7f500484f1c3  google::LogMessage::Fail()
+    @     0x7f5004854263  google::LogMessage::SendToLog()
+    @     0x7f500484eebf  google::LogMessage::Flush()
+    @     0x7f500484f6ef  google::LogMessageFatal::~LogMessageFatal()
+    @     0x7f5004039421  caffe::ReadNetParamsFromBinaryFileOrDie()
+    @     0x7f5003fedc2a  caffe::Net<>::CopyTrainedLayersFromBinaryProto()
+    @     0x7f5004efd428  op::NetCaffe::initializationOnThread()
+    @     0x7f5004f179de  op::addCaffeNetOnThread()
+    @     0x7f5004f18c4d  op::PoseExtractorCaffe::netInitializationOnThread()
+    @     0x7f5004f1db70  op::PoseExtractorNet::initializationOnThread()
+    @     0x7f5004f146b1  op::PoseExtractor::initializationOnThread()
+    @     0x7f5004f0f5c1  op::WPoseExtractor<>::initializationOnThread()
+    @     0x7f5004f49fd1  op::Worker<>::initializationOnThreadNoException()
+    @     0x7f5004f4a110  op::SubThread<>::initializationOnThread()
+    @     0x7f5004f4cf18  op::Thread<>::initializationOnThread()
+    @     0x7f5004f4d11d  op::Thread<>::threadFunction()
+    @     0x7f5004b8d302  (unknown)
+    @     0x7f5004891669  start_thread
+    @     0x7f50049cd323  clone
+已放弃 (核心已转储)
+```
+https://github.com/CMU-Perceptual-Computing-Lab/openpose/issues/787
+
+https://github.com/BVLC/caffe/commit/dc6d3303a45e8c5a0fe7249881ca6bd8387c9203
+
+恢复后报错
+
+```
+Starting OpenPose demo...
+Configuring OpenPose...
+Starting thread(s)...
+Auto-detecting all available GPUs... Detected 1 GPU(s), using 1 of them starting at GPU 0.
+F1219 20:05:53.700925 20373 cudnn_conv_layer.cu:28] Check failed: status == CUDNN_STATUS_SUCCESS (8 vs. 0)  CUDNN_STATUS_EXECUTION_FAILED
+*** Check failure stack trace: ***
+    @     0x7f3cdb7ad1c3  google::LogMessage::Fail()
+    @     0x7f3cdb7b2263  google::LogMessage::SendToLog()
+    @     0x7f3cdb7acebf  google::LogMessage::Flush()
+    @     0x7f3cdb7ad6ef  google::LogMessageFatal::~LogMessageFatal()
+    @     0x7f3cdafbf343  caffe::CuDNNConvolutionLayer<>::Forward_gpu()
+    @     0x7f3cdaf326e1  caffe::Net<>::ForwardFromTo()
+    @     0x7f3cdbe5a721  op::NetCaffe::forwardPass()
+    @     0x7f3cdbe7834a  op::PoseExtractorCaffe::forwardPass()
+    @     0x7f3cdbe727f5  op::PoseExtractor::forwardPass()
+    @     0x7f3cdbe6f9b6  op::WPoseExtractor<>::work()
+    @     0x7f3cdbea8269  op::Worker<>::checkAndWork()
+    @     0x7f3cdbea840b  op::SubThread<>::workTWorkers()
+    @     0x7f3cdbeb0dab  op::SubThreadQueueInOut<>::work()
+    @     0x7f3cdbeab1bb  op::Thread<>::threadFunction()
+    @     0x7f3cdbaeb302  (unknown)
+    @     0x7f3cdb7ef669  start_thread
+    @     0x7f3cdb92b323  clone
+已放弃 (核心已转储)
+```
 
 
 
+---
+
+视频
+```
+cd /home/zb/OpenPoseFile/openpose
+
+./build/examples/openpose/openpose.bin --video examples/media/video.avi
+
+./build/examples/openpose/openpose.bin --video examples/media/my/Mexican_Elections_-_Last_Week_Tonight_with_John_Oliver_HBO-8-hahRWhFvg.mp4
+
+./build/examples/openpose/openpose.bin --image_dir examples/media/my/jpg
+```
+
+摄像头
+```
+./build/examples/openpose/openpose.bin
+
+./build/examples/openpose/openpose.bin --face --hand
+```
+
+图像
+```
+./build/examples/openpose/openpose.bin --image_dir examples/media/
+
+./build/examples/openpose/openpose.bin --image_dir examples/media/ --face --hand
+
+```
 ---

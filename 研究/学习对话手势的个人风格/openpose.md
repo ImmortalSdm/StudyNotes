@@ -815,7 +815,7 @@ cd /home/zb/OpenPoseFile/openpose
 
 视频
 ```
-./build/examples/openpose/openpose.bin --video examples/media/video.avi --face --hand
+./build/examples/openpose/openpose.bin --video examples/media/video.avi --model_pose BODY_25 --face --hand --net_resolution 80x32
 
 ./build/examples/openpose/openpose.bin --video examples/media/video.avi --model_pose BODY_25 --net_resolution 672x352
 
@@ -823,17 +823,14 @@ cd /home/zb/OpenPoseFile/openpose
 ./build/examples/openpose/openpose.bin --video examples/media/my/Mexican_Elections_-_Last_Week_Tonight_with_John_Oliver_HBO-8-hahRWhFvg.mp4
 
 ```
-60*33
 
-640
-
-|长x宽|长的16倍数x长的16倍数|能否|
-|-|-|-|
-|640x352|40x22|可以|
-|656x368|41x23|可以|
-|672x352|42x22|可以|
-|672x368|42x23|内存溢出|
-|688x352|43x22|内存溢出|
+face|hand|长x宽|长的16倍数x宽的16倍数|总数|能否|
+|-|-|-|-|-|-|
+|无|无|640x352|40x22|225280|可以|
+|无|无|656x368|41x23|241408|可以|
+|无|无|672x352|42x22|236544|可以|
+|无|无|672x368|42x23|247296|内存溢出|
+|无|无|688x352|43x22|242176|内存溢出|
 
 
 摄像头

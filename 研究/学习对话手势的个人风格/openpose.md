@@ -808,6 +808,12 @@ F1219 20:05:53.700925 20373 cudnn_conv_layer.cu:28] Check failed: status == CUDN
 ---
 
 ## 运行测试
+|参数|选项|作用|
+|-|-|-|
+|--model_pose|BODY_25 / COCO / MPII|算法模式|
+|--face||脸|
+|--hand||手指|
+|--net_resolution|如640x352|处理分辨率|
 
 ```
 cd /home/zb/OpenPoseFile/openpose
@@ -815,13 +821,12 @@ cd /home/zb/OpenPoseFile/openpose
 
 视频
 ```
-./build/examples/openpose/openpose.bin --video examples/media/video.avi --model_pose BODY_25 --face --hand --net_resolution 80x32
+./build/examples/openpose/openpose.bin --video examples/media/video.avi --model_pose COCO --face --hand --net_resolution 160x48
 
 ./build/examples/openpose/openpose.bin --video examples/media/video.avi --model_pose BODY_25 --net_resolution 672x352
 
 #自己的视频
 ./build/examples/openpose/openpose.bin --video examples/media/my/Mexican_Elections_-_Last_Week_Tonight_with_John_Oliver_HBO-8-hahRWhFvg.mp4
-
 ```
 
 face|hand|长x宽|长的16倍数x宽的16倍数|总数|能否|

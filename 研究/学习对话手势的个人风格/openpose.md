@@ -788,32 +788,8 @@ make -j`nproc`
 ```
 
 ```
-Starting OpenPose demo...
-Configuring OpenPose...
-Starting thread(s)...
-Auto-detecting all available GPUs... Detected 1 GPU(s), using 1 of them starting at GPU 0.
 [libprotobuf ERROR google/protobuf/message_lite.cc:123] Can't parse message of type "caffe.NetParameter" because it is missing required fields: layer[0].clip_param.min, layer[0].clip_param.max
 F1219 17:32:23.850667 32687 upgrade_proto.cpp:97] Check failed: ReadProtoFromBinaryFile(param_file, param) Failed to parse NetParameter file: models/pose/body_25/pose_iter_584000.caffemodel
-*** Check failure stack trace: ***
-    @     0x7f500484f1c3  google::LogMessage::Fail()
-    @     0x7f5004854263  google::LogMessage::SendToLog()
-    @     0x7f500484eebf  google::LogMessage::Flush()
-    @     0x7f500484f6ef  google::LogMessageFatal::~LogMessageFatal()
-    @     0x7f5004039421  caffe::ReadNetParamsFromBinaryFileOrDie()
-    @     0x7f5003fedc2a  caffe::Net<>::CopyTrainedLayersFromBinaryProto()
-    @     0x7f5004efd428  op::NetCaffe::initializationOnThread()
-    @     0x7f5004f179de  op::addCaffeNetOnThread()
-    @     0x7f5004f18c4d  op::PoseExtractorCaffe::netInitializationOnThread()
-    @     0x7f5004f1db70  op::PoseExtractorNet::initializationOnThread()
-    @     0x7f5004f146b1  op::PoseExtractor::initializationOnThread()
-    @     0x7f5004f0f5c1  op::WPoseExtractor<>::initializationOnThread()
-    @     0x7f5004f49fd1  op::Worker<>::initializationOnThreadNoException()
-    @     0x7f5004f4a110  op::SubThread<>::initializationOnThread()
-    @     0x7f5004f4cf18  op::Thread<>::initializationOnThread()
-    @     0x7f5004f4d11d  op::Thread<>::threadFunction()
-    @     0x7f5004b8d302  (unknown)
-    @     0x7f5004891669  start_thread
-    @     0x7f50049cd323  clone
 已放弃 (核心已转储)
 ```
 https://github.com/CMU-Perceptual-Computing-Lab/openpose/issues/787
@@ -823,29 +799,7 @@ https://github.com/BVLC/caffe/commit/dc6d3303a45e8c5a0fe7249881ca6bd8387c9203
 恢复后报错
 
 ```
-Starting OpenPose demo...
-Configuring OpenPose...
-Starting thread(s)...
-Auto-detecting all available GPUs... Detected 1 GPU(s), using 1 of them starting at GPU 0.
 F1219 20:05:53.700925 20373 cudnn_conv_layer.cu:28] Check failed: status == CUDNN_STATUS_SUCCESS (8 vs. 0)  CUDNN_STATUS_EXECUTION_FAILED
-*** Check failure stack trace: ***
-    @     0x7f3cdb7ad1c3  google::LogMessage::Fail()
-    @     0x7f3cdb7b2263  google::LogMessage::SendToLog()
-    @     0x7f3cdb7acebf  google::LogMessage::Flush()
-    @     0x7f3cdb7ad6ef  google::LogMessageFatal::~LogMessageFatal()
-    @     0x7f3cdafbf343  caffe::CuDNNConvolutionLayer<>::Forward_gpu()
-    @     0x7f3cdaf326e1  caffe::Net<>::ForwardFromTo()
-    @     0x7f3cdbe5a721  op::NetCaffe::forwardPass()
-    @     0x7f3cdbe7834a  op::PoseExtractorCaffe::forwardPass()
-    @     0x7f3cdbe727f5  op::PoseExtractor::forwardPass()
-    @     0x7f3cdbe6f9b6  op::WPoseExtractor<>::work()
-    @     0x7f3cdbea8269  op::Worker<>::checkAndWork()
-    @     0x7f3cdbea840b  op::SubThread<>::workTWorkers()
-    @     0x7f3cdbeb0dab  op::SubThreadQueueInOut<>::work()
-    @     0x7f3cdbeab1bb  op::Thread<>::threadFunction()
-    @     0x7f3cdbaeb302  (unknown)
-    @     0x7f3cdb7ef669  start_thread
-    @     0x7f3cdb92b323  clone
 已放弃 (核心已转储)
 ```
 
@@ -853,16 +807,34 @@ F1219 20:05:53.700925 20373 cudnn_conv_layer.cu:28] Check failed: status == CUDN
 
 ---
 
-视频
+## 运行测试
+
 ```
 cd /home/zb/OpenPoseFile/openpose
+```
 
-./build/examples/openpose/openpose.bin --video examples/media/video.avi
+视频
+```
+./build/examples/openpose/openpose.bin --video examples/media/video.avi --face --hand
 
+./build/examples/openpose/openpose.bin --video examples/media/video.avi --model_pose BODY_25 --net_resolution 672x352
+
+#自己的视频
 ./build/examples/openpose/openpose.bin --video examples/media/my/Mexican_Elections_-_Last_Week_Tonight_with_John_Oliver_HBO-8-hahRWhFvg.mp4
 
-./build/examples/openpose/openpose.bin --image_dir examples/media/my/jpg
 ```
+60*33
+
+640
+
+|长x宽|长的16倍数x长的16倍数|能否|
+|-|-|-|
+|640x352|40x22|可以|
+|656x368|41x23|可以|
+|672x352|42x22|可以|
+|672x368|42x23|内存溢出|
+|688x352|43x22|内存溢出|
+
 
 摄像头
 ```
@@ -877,5 +849,7 @@ cd /home/zb/OpenPoseFile/openpose
 
 ./build/examples/openpose/openpose.bin --image_dir examples/media/ --face --hand
 
+#自己的图片
+./build/examples/openpose/openpose.bin --image_dir examples/media/my/jpg
 ```
 ---

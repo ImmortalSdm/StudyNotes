@@ -27,20 +27,26 @@
 
 ```
 source activate speech2gesture_env_py27
-```
 
-```
 PYTHON_EXECUTABLE=/usr/bin/python2.7
 PYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython2.7m.so
 
 sudo apt-get install python-dev
-sudo pip install numpy opencv-python
+sudo pip3 install numpy opencv-python
+
+```
+
+```
+source activate env_py37
+
+sudo apt-get install python3-dev
+sudo pip3 install numpy opencv-python
 ```
 
 
 ```
 cd /home/zb/OpenPoseFile/openpose/build/examples/tutorial_api_python
-python 01_body_from_image.py
+python3.7 01_body_from_image.py
 ```
 
 ```

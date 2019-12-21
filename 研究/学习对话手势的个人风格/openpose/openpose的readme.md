@@ -31,4 +31,5 @@ source activate speech2gesture_env_py27
 
 ```
 sudo pip install numpy opencv-python
+pip install opencv-python
 ```

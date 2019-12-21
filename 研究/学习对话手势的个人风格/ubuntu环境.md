@@ -5,12 +5,14 @@ sudo apt-get install ffmpeg
 ##### 创建anaconda环境
 ```
 conda create --name speech2gesture_env_py27 python=2.7 anaconda
+conda create --name env_py37 python=3.7 anaconda
 ```
 
 
 ##### 激活anaconda环境
 ```
 source activate speech2gesture_env_py27
+source activate env_py37
 ```
 
 ```

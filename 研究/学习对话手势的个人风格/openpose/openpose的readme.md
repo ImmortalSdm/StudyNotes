@@ -30,6 +30,30 @@ source activate speech2gesture_env_py27
 ```
 
 ```
+PYTHON_EXECUTABLE=/usr/bin/python2.7
+PYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython2.7m.so
+
+sudo apt-get install python-dev
 sudo pip install numpy opencv-python
-pip install opencv-python
 ```
+
+
+```
+cd /home/zb/OpenPoseFile/openpose/build/examples/tutorial_api_python
+python 01_body_from_image.py
+```
+
+```
+ls ../../python/openpose
+```
+
+> pyopenpose.cpython-35m-x86_64-linux-gnu.so
+pyopenpose.so
+
+
+https://blog.csdn.net/dongkaiwen48/article/details/103150243
+
+https://github.com/CMU-Perceptual-Computing-Lab/openpose/issues/1027
+
+
+---

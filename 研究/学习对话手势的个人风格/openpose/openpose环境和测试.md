@@ -858,3 +858,22 @@ face|hand|长x宽|长的16倍数x宽的16倍数|总数|能否|
 ./build/examples/openpose/openpose.bin --image_dir examples/media/my/jpg
 ```
 ---
+
+
+python
+
+检查3rdparty / pybind11文件夹并查看是否存在任何内容吗？如果是空的
+
+https://github.com/pybind/pybind11/tree/085a29436a8c472caaaf7157aa644b571079bcaa
+
+
+下载并解压过去
+
+
+然后CMakeCache.txt打开gui勾上build_python 然后生成
+
+
+```
+cd build/examples/tutorial_api_python
+python 01_body_from_image.py
+```

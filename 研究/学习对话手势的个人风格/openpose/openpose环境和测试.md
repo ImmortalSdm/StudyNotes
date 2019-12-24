@@ -606,7 +606,9 @@ make runtest -j12 # 不可用sudo，cuda环境配置在用户目录下，但是�
 ```
 成功!
 
-
+```
+export LD_LIBRARY_PATH=/home/zb/OpenPoseFile/caffe/.build_release/:$LD_LIBRARY_PATH
+```
 
 
 ---
@@ -826,19 +828,16 @@ cd /home/zb/OpenPoseFile/openpose
 ```
 ./build/examples/openpose/openpose.bin --video examples/media/video.avi --model_pose COCO --face --hand --net_resolution 160x48
 
-./build/examples/openpose/openpose.bin --video examples/media/video.avi --model_pose BODY_25 --net_resolution 672x352
+./build/examples/openpose/openpose.bin --video examples/media/video.avi --net_resolution 640x352
 
 #自己的视频
-./build/examples/openpose/openpose.bin --video examples/media/my/Mexican_Elections_-_Last_Week_Tonight_with_John_Oliver_HBO-8-hahRWhFvg.mp4
+./build/examples/openpose/openpose.bin --video examples/media/my/Mexican_Elections_-_Last_Week_Tonight_with_John_Oliver_HBO-8-hahRWhFvg.mp4 --net_resolution 640x352
 ```
 
-face|hand|长x宽|长的16倍数x宽的16倍数|总数|能否|
-|-|-|-|-|-|-|
-|无|无|640x352|40x22|225280|可以|
-|无|无|656x368|41x23|241408|可以|
-|无|无|672x352|42x22|236544|可以|
-|无|无|672x368|42x23|247296|内存溢出|
-|无|无|688x352|43x22|242176|内存溢出|
+|模式|face|hand|长x宽|长的16倍数x宽的16倍数|总数|能否|命令|
+|-|-|-|-|-|-|-|-|
+||无|无|640x352|40x22|225280|可以|./build/examples/openpose/openpose.bin --video examples/media/video.avi --net_resolution 640x352
+
 
 
 摄像头
@@ -875,5 +874,5 @@ https://github.com/pybind/pybind11/tree/085a29436a8c472caaaf7157aa644b571079bcaa
 
 ```
 cd build/examples/tutorial_api_python
-python 01_body_from_image.py
+python3.7 01_body_from_image.py
 ```

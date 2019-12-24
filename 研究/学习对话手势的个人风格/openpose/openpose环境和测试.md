@@ -442,14 +442,25 @@ pkg-config, then re-run cmake or configure script
 ```
 
 ```
+source activate env_py37
 conda remove opencv
 conda install -c conda-forge opencv=4.1.0
 ```
 
+##### 运行
 
 ```
-cd build/examples/tutorial_api_python
+source activate env_py37
+cd /home/zb/OpenPoseFile/openpose/build/examples/tutorial_api_python
+
 python3.7 01_body_from_image.py
+python3.7 02_whole_body_from_image.py
+python3.7 04_keypoints_from_images.py
+python3.7 05_keypoints_from_images_multi_gpu.py
+python3.7 06_face_from_image.py
+python3.7 07_hand_from_image.py
+python3.7 08_heatmaps_from_image.py
+python3.7 09_keypoints_from_heatmaps.py
 ```
 
 

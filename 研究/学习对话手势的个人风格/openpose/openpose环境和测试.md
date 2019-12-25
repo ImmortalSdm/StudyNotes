@@ -453,15 +453,26 @@ conda install -c conda-forge opencv=4.1.0
 source activate env_py37
 cd /home/zb/OpenPoseFile/openpose/build/examples/tutorial_api_python
 
-python3.7 01_body_from_image.py
-python3.7 02_whole_body_from_image.py
-python3.7 04_keypoints_from_images.py
-python3.7 05_keypoints_from_images_multi_gpu.py
-python3.7 06_face_from_image.py
-python3.7 07_hand_from_image.py
-python3.7 08_heatmaps_from_image.py
-python3.7 09_keypoints_from_heatmaps.py
+python 01_body_from_image.py
+python 01_body_from_image.py --image_path ../../../examples/media/COCO_val2014_000000000192.jpg
+
+python 02_whole_body_from_image.py
+python 04_keypoints_from_images.py
+python 05_keypoints_from_images_multi_gpu.py
+python 06_face_from_image.py
+python 07_hand_from_image.py
+python 08_heatmaps_from_image.py
+python 09_keypoints_from_heatmaps.py
 ```
 
-
+BODY_25
+COCO
+MPI
+MPI_4_layers
+```
+./build/examples/openpose/openpose.bin --video examples/media/video.avi --model_pose BODY_25
+./build/examples/openpose/openpose.bin --video examples/media/video.avi --model_pose COCO
+./build/examples/openpose/openpose.bin --video examples/media/video.avi --model_pose MPI
+./build/examples/openpose/openpose.bin --video examples/media/video.avi --model_pose MPI_4_layers
+```
 ---

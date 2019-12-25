@@ -373,6 +373,7 @@ cd /home/zb/OpenPoseFile/openpose
 视频
 ```
 ./build/examples/openpose/openpose.bin --video examples/media/video.avi --model_pose COCO --face --hand --net_resolution 160x48
+
 ./build/examples/openpose/openpose.bin --video examples/media/video.avi --net_resolution 640x352
 
 ./build/examples/openpose/openpose.bin --video examples/media/video.avi --write_video write_video/beWriteVideo.avi

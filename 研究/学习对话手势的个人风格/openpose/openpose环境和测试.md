@@ -374,7 +374,8 @@ cd /home/zb/OpenPoseFile/openpose
 ```
 ./build/examples/openpose/openpose.bin --video examples/media/video.avi --model_pose COCO --face --hand --net_resolution 160x48
 ./build/examples/openpose/openpose.bin --video examples/media/video.avi --net_resolution 640x352
-./build/examples/openpose/openpose.bin --video examples/media/video.avi --net_resolution 640x352 --write_video write_video/yes2.avi
+
+./build/examples/openpose/openpose.bin --video examples/media/video.avi --write_video write_video/beWriteVideo.avi
 
 #自己的视频
 ./build/examples/openpose/openpose.bin --video examples/media/my/Mexican_Elections_-_Last_Week_Tonight_with_John_Oliver_HBO-8-hahRWhFvg.mp4 --net_resolution 640x352

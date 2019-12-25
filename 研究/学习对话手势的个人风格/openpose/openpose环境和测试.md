@@ -378,6 +378,8 @@ cd /home/zb/OpenPoseFile/openpose
 
 #自己的视频
 ./build/examples/openpose/openpose.bin --video examples/media/my/Mexican_Elections_-_Last_Week_Tonight_with_John_Oliver_HBO-8-hahRWhFvg.mp4 --net_resolution 640x352
+
+./build/examples/openpose/openpose.bin --video examples/media/my/Mexican_Elections_-_Last_Week_Tonight_with_John_Oliver_HBO-8-hahRWhFvg.mp4 --net_resolution 640x352
 ```
 
 |模式|face|hand|长x宽|长的16倍数x宽的16倍数|总数|能否|命令|

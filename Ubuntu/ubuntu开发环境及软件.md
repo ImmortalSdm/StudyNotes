@@ -23,15 +23,17 @@
 
 - Do you wish to proceed with the installation of Microsoft VSCode? [yes|no]”，输入no
 
-- 修改终端的默认 python 为 anaconda（暂未处理）
-```
-sudo gedit ~/.bashrc
-export PATH="/home/xupp/anaconda3/bin:$PATH"
-```
+- 切换到anaconda安装目录下运行 source bin/activate
+
+- `conda init`
+
+- `source ~/.bashrc`
 
 ---
 
 #### git
+
+/git.md
 
 ---
 
@@ -52,12 +54,38 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
 
 ---
+#### vim
 
+```
+sudo apt-get install vim
+
+```
+
+---
 #### cuda和cudnn
 
 
 ---
 
 #### Google上网助手
+
+---
+
+#### gcc-5和g++-5
+
+---
+
+
+
+
+---
+
+
+
+
+---
+
+
+
 
 ---

@@ -11,6 +11,10 @@
 
 #### pycharm
 
+- 解压到主目录
+- 进入pycharm/bin
+- `sudo sh ./pycharm.sh`
+
 ---
 
 #### anaconda

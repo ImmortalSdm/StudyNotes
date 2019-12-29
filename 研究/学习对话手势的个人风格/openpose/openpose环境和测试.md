@@ -1,12 +1,3 @@
-
-## opencv
-```
-sudo apt update
-sudo apt upgrade
-sudo apt install libopencv-dev python-opencv
-
-pkg-config --modversion opencv
-```
 ---
 ## caffe
 #### 依赖库

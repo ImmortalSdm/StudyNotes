@@ -26,7 +26,7 @@
 ---
 
 ```
-source activate speech2gesture_env_py27
+source activate speech2gesture_env_py2-7
 
 PYTHON_EXECUTABLE=/usr/bin/python2.7
 PYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython2.7m.so
@@ -37,7 +37,7 @@ sudo pip3 install numpy opencv-python
 ```
 
 ```
-source activate env_py37
+source activate env_py3-7
 
 
 

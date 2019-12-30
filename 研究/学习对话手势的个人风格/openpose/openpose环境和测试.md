@@ -5,10 +5,22 @@ sudo apt upgrade
 sudo apt install libopencv-dev python-opencv
 
 pkg-config --modversion opencv
+
 ```
 
 ## caffe
 #### 依赖库
+https://blog.csdn.net/weixin_39059031/article/details/84823717
+https://blog.csdn.net/weixin_39059031/article/details/84824659
+```
+sudo apt-get install libatlas-base-dev
+sudo apt-get install libgoogle-glog-dev
+sudo apt-get install -y build-essential cmake git pkg-config
+sudo apt-get install -y libprotobuf-dev libleveldb-dev libsnappy-dev libhdf5-serial-dev protobuf-compiler
+sudo apt-get install -y --no-install-recommends libboost-all-dev
+sudo apt-get install -y libgflags-dev libgoogle-glog-dev liblmdb-dev
+```
+
 ```
 sudo apt-get --assume-yes install build-essential
 sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler

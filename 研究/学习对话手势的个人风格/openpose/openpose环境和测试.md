@@ -49,7 +49,7 @@ sudo -H pip install --upgrade numpy protobuf
 ```
 
 ```
-2.4.1-1
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython python-pandas python-sympy
 ```
 ---
 
@@ -118,6 +118,34 @@ sudo vim /usr/local/cuda/include/crt/host_config.h
 ```
 ---
 ### 错误解决
+
+##### 编译安装protobuf
+```
+sudo apt-get autoremove libprotobuf-dev protobuf-compiler
+sudo apt-get remove libprotobuf-dev
+sudo apt-get remove libprotobuf-compile
+sudo apt-get remove protobuf-compiler
+```
+```
+cd protobuf
+sudo apt-get install libtool
+./autogen.sh
+./configure --prefix=/usr/local/ CC=/usr/bin/gcc
+sudo make clean
+sudo make -j8
+
+sudo make install
+
+```
+```
+cd /etc/ld.so.conf.d
+sudo touch libprotobuf.conf
+sudo vim libprotobuf.conf # 加入/usr/local/lib
+sudo ldconfig
+protoc --version
+```
+##### 2
+
 ```
 sudo vim Makefile
 ```
@@ -185,34 +213,6 @@ sudo vim /usr/local/cuda/include/crt/host_config.h
 /* __GNUC__ > 6 */
 ```
 
-##### protoc
-```
-sudo apt-get autoremove libprotobuf-dev protobuf-compiler
-sudo apt-get remove libprotobuf-dev
-sudo apt-get remove libprotobuf-compile
-sudo apt-get remove protobuf-compiler
-```
-
-
-```
-sudo make clean
-./autogen.sh
-./configure --prefix=/usr/local/ CC=/usr/bin/gcc
-sudo make -j12
-
-sudo make install
-```
-
-```
-cd /etc/ld.so.conf.d
-sudo touch libprotobuf.conf
-sudo vim libprotobuf.conf # 加入/usr/local/lib
-sudo ldconfig
-protoc --version
-```
-
-
-
 ---
 
 
@@ -221,7 +221,7 @@ protoc --version
 
 ```
 sudo make clean
-sudo make all -j12
+sudo make all -j`nproc`
 ```
 报错
 ```
@@ -265,9 +265,9 @@ sudo ln -s g++-5 g++
 然后再试试编译caffe
 ```
 sudo make clean
-sudo make all -j12
-sudo make test -j12
-make runtest -j12 # 不可用sudo，cuda环境配置在用户目录下，但是我们sudo runtest 是用的root用户
+sudo make all -j`nproc`
+sudo make test -j`nproc`
+make runtest -j`nproc` # 不可用sudo，cuda环境配置在用户目录下，但是我们sudo runtest 是用的root用户
 ```
 成功!
 
@@ -321,8 +321,10 @@ sudo mv src/caffe/proto/caffe.pb.h include/caffe/proto
 
 ```
 cd /home/zb/OpenPoseFile/openpose/build
-sudo make clean
-sudo make -j12
+
+make clean
+
+make -j`nproc`
 ```
 
 报错
@@ -330,14 +332,15 @@ sudo make -j12
 nvcc fatal   : Unsupported gpu architecture 'compute_75'
 ```
 
-
-> 在openpose / cmake / Cuda.cmake 列表中注释以下行（APPEND CUDA_NVCC_FLAGS $ {NVCC_FLAGS_EXTRA}）
+在openpose / cmake / Cuda.cmake 中注释以下行（APPEND CUDA_NVCC_FLAGS $ {NVCC_FLAGS_EXTRA}）
 
 
 
 ```
 cd /home/zb/OpenPoseFile/openpose/build
+
 make clean
+
 make -j`nproc`
 ```
 成功

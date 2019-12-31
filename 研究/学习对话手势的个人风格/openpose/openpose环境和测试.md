@@ -83,14 +83,21 @@ sudo cp Makefile.config.example Makefile.config
 #### 修改配置文件Makefile.config：
 ```
 cd /home/zb/OpenPoseFile/caffe
-sudo vim Makefile.config
+cp Makefile.config.example Makefile.config
+sudo gedit Makefile.config
 ```
 
 - 应用 cudnn，将`#USE_CUDNN := 1`修改成`USE_CUDNN := 1`
+
 - 应用 opencv 版本 如果opencv的版本是3。那么将#OPENCV_VERSION := 3 修改为：OPENCV_VERSION := 3
+
 - 使用 python 接口，将`#WITH_PYTHON_LAYER := 1`修改为`WITH_PYTHON_LAYER := 1`
+
 - `INCLUDE_DIRS:= $(PYTHON_INCLUDE) /usr/local/include`修改为`INCLUDE_DIRS:= $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial`
+
 - `LIBRARY_DIRS:= $(PYTHON_LIB) /usr/local/lib /usr/lib`修改为`LIBRARY_DIRS:= $(PYTHON_LIB) /usr/local/lib /usr/lib /usr/lib/x86_64-linux-gnu/usr/lib/x86_64-linux-gnu/hdf5/serial`
+
+- compute那一部分改一改
 
 #### 修改Makefile文件
 ```
@@ -100,8 +107,16 @@ sudo vim Makefile
 `NVCCFLAGS +=-ccbin=$(CXX) -Xcompiler-fPIC$(COMMON_FLAGS)`
 替换为
 `NVCCFLAGS += -D_FORCE_INLINES -ccbin=$(CXX) -Xcompiler -fPIC $(COMMON_FLAGS)`
+
 - 将`LIBRARIES += hdf5_hl hdf5`
 改为`LIBRARIES += hdf5_serial_hl hdf5_serial`
+
+- `LIBRARIES += boost_thread stdc++`改为`LIBRARIES += boost_thread stdc++ boost_regex`
+
+- 编辑/usr/local/cuda/include/host_config.h，将其中的第115行注释，如下
+```
+//#error-- unsupported GNU version! gcc versions later than 4.9 are not supported!
+```
 
 #### host_config.h
 ```

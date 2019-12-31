@@ -47,6 +47,10 @@ sudo apt install python-pip
 sudo -H pip install --upgrade numpy protobuf
 
 ```
+
+```
+2.4.1-1
+```
 ---
 
 #### 正式安装caffe

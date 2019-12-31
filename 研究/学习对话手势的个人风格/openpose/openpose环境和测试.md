@@ -219,11 +219,30 @@ sudo vim /usr/local/cuda/include/crt/host_config.h
 
 #### 编译caffe
 
+layer_clip的问题要改
+
+
+
 ```
 sudo make clean
 sudo make all -j`nproc`
 ```
+
+
+
 报错
+
+
+```
+F1231 15:26:33.385639  6133 cudnn_softmax_layer.cu:20] Check failed: status == CUDNN_STATUS_SUCCESS (8 vs. 0)  CUDNN_STATUS_EXECUTION_FAILED
+```
+
+
+如何解决？
+
+
+
+
 ```
 src/caffe/util/io.cpp: In function ‘bool caffe::ReadProtoFromBinaryFile(const char*, google::protobuf::Message*)’:
 src/caffe/util/io.cpp:57:66: warning: ‘void google::protobuf::io::CodedInputStream::SetTotalBytesLimit(int, int)’ is deprecated (declared at /usr/local/include/google/protobuf/io/coded_stream.h:397): Please use the single parameter version of SetTotalBytesLimit(). The second parameter is ignored. [-Wdeprecated-declarations]

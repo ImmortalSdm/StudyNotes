@@ -107,9 +107,11 @@ sudo apt-get install gcc-5
 ```
 sudo apt-get install g++-5
 ```
-
 ```
-sudo mv gcc gcc.bak #备份
+cd /usr/bin
+```
+```
+sudo mv gcc gcc.bak
 ```
 ```
 sudo ln -s gcc-5 gcc

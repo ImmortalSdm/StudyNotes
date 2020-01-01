@@ -349,6 +349,23 @@ mkdir build
 cmake-gui
 ```
 
+
+
+```
+cd /home/zb/OpenPoseFile/openpose/build
+
+make clean
+
+make -j`nproc`
+```
+
+若报错
+```
+nvcc fatal   : Unsupported gpu architecture 'compute_75'
+```
+
+在openpose / cmake / Cuda.cmake 中注释以下行（APPEND CUDA_NVCC_FLAGS $ {NVCC_FLAGS_EXTRA}）
+
 ```
 cd /home/zb/OpenPoseFile/caffe
 sudo protoc src/caffe/proto/caffe.proto --cpp_out=.
@@ -356,31 +373,6 @@ sudo mkdir include/caffe/proto
 sudo mv src/caffe/proto/caffe.pb.h include/caffe/proto
 ```
 
-```
-cd /home/zb/OpenPoseFile/openpose/build
-
-make clean
-
-make -j`nproc`
-```
-
-报错
-```
-nvcc fatal   : Unsupported gpu architecture 'compute_75'
-```
-
-在openpose / cmake / Cuda.cmake 中注释以下行（APPEND CUDA_NVCC_FLAGS $ {NVCC_FLAGS_EXTRA}）
-
-
-
-```
-cd /home/zb/OpenPoseFile/openpose/build
-
-make clean
-
-make -j`nproc`
-```
-成功
 
 ---
 

@@ -149,8 +149,14 @@ sudo teamviewer daemon start
 
 ---
 
+#### pip
+
+```
+sudo apt update
 
 
+sudo apt install python-pip
+```
 
 ---
 

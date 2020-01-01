@@ -241,11 +241,13 @@ layer_clip的问题要改
 ```
 sudo make clean
 sudo make all -j`nproc`
+sudo make test -j`nproc`
+make runtest -j`nproc`
 ```
 
 
 
-报错
+##### 报错，暂未解决？
 
 
 ```
@@ -253,10 +255,10 @@ F1231 15:26:33.385639  6133 cudnn_softmax_layer.cu:20] Check failed: status == C
 ```
 
 
-如何解决？
+禁用cudnn可以运行，但速度慢
 
 
-
+##### 报错
 
 ```
 src/caffe/util/io.cpp: In function ‘bool caffe::ReadProtoFromBinaryFile(const char*, google::protobuf::Message*)’:
@@ -301,7 +303,8 @@ sudo ln -s g++-5 g++
 sudo make clean
 sudo make all -j`nproc`
 sudo make test -j`nproc`
-make runtest -j`nproc` # 不可用sudo，cuda环境配置在用户目录下，但是我们sudo runtest 是用的root用户
+make runtest -j`nproc`
+# 不可用sudo，cuda环境配置在用户目录下，但是我们sudo runtest 是用的root用户
 ```
 成功!
 

@@ -173,7 +173,7 @@ python -m data.train_test_data_extraction.extract_data_for_training --base_datas
 ---
 ## 激活anaconda环境
 ```
-source activate speech2gesture_env_py2-7
+source activate env_py2-7
 ```
 
 ## 训练

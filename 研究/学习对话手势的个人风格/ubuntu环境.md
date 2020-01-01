@@ -11,12 +11,14 @@ conda create --name env_py3-7 python=3.7 anaconda
 
 ##### 激活anaconda环境
 ```
-source activate speech2gesture_env_py2-7
-source activate env_py37
+source activate env_py2-7
+source activate env_py3-7
 ```
 
 ```
 pip install tensorflow_gpu-1.9.0-cp27-cp27mu-manylinux1_x86_64.whl
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-gpu==1.13.1
 ```
 
 ```
@@ -155,7 +157,7 @@ sudo chmod a+r /usr/local/cuda/include/cudnn.h  /usr/local/cuda/lib64/libcudnn*
 ---
 
 
-[下载tensorflow-gpu py37](https://files.pythonhosted.org/packages/a1/eb/bc0784af18f612838f90419cf4805c37c20ddb957f5ffe0c42144562dcfa/tensorflow_gpu-2.0.0-cp37-cp37m-manylinux2010_x86_64.whl)
+[下载tensorflow-gpu py3-7](https://files.pythonhosted.org/packages/a1/eb/bc0784af18f612838f90419cf4805c37c20ddb957f5ffe0c42144562dcfa/tensorflow_gpu-2.0.0-cp37-cp37m-manylinux2010_x86_64.whl)
 
 [下载tensorflow-gpu py2-7](https://files.pythonhosted.org/packages/68/45/8ed49fb2decd4ce7849fc9755d9e066f414fb29c40e811bf4c12287de0af/tensorflow_gpu-1.9.0-cp27-cp27mu-manylinux1_x86_64.whl)
 

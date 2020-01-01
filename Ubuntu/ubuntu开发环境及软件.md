@@ -84,6 +84,53 @@ sudo apt-get install vim
 
 #### gcc-5和g++-5
 
+修改源
+```
+sudo gedit /etc/apt/sources.list
+```
+
+在打开的文件中最后面加上这两行
+```
+deb http://dk.archive.ubuntu.com/ubuntu/ xenial main
+deb http://dk.archive.ubuntu.com/ubuntu/ xenial universe
+```
+
+更新源
+```
+sudo apt update
+```
+
+安装
+```
+sudo apt-get install gcc-5
+```
+```
+sudo apt-get install g++-5
+```
+
+```
+sudo mv gcc gcc.bak #备份
+```
+```
+sudo ln -s gcc-5 gcc
+```
+
+再查看gcc版本号：
+```
+gcc -v
+```
+
+
+需要将g++链接改为g++-5：
+```
+sudo mv g++ g++.bak
+```
+```
+sudo ln -s g++-5 g++
+```
+```
+g++ -v
+```
 ---
 #### teamviewer
 ```

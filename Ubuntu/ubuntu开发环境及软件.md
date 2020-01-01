@@ -33,7 +33,18 @@
 
 #### git
 
-/git.md
+```
+apt-get update
+
+apt-get upgrade
+
+sudo apt install git
+
+git config --global user.name "zb"
+
+git config --global user.email "1037976812@qq.com"
+
+```
 
 ---
 
@@ -81,6 +92,10 @@ sudo dpkg -i '/home/zb/Downloads/teamviewer_15.1.3937_amd64.deb'
 sudo apt-get install -f
 
 sudo dpkg -i '/home/zb/Downloads/teamviewer_15.1.3937_amd64.deb' 
+
+
+sudo teamviewer daemon stop
+sudo teamviewer daemon start
 ```
 
 ---

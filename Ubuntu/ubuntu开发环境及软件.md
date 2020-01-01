@@ -19,15 +19,25 @@
 
 #### anaconda
 
-- bash命令运行.sh的安装包
+- bash命令运行.sh的安装包(复制到home目录，才会安装在这里)
 
 - Do you wish to proceed with the installation of Microsoft VSCode? [yes|no]”，输入no
 
 - 切换到anaconda安装目录下运行 source bin/activate
+```
+source bin/activate
+conda init
+source ~/.bashrc
+conda  --version
+```
 
-- `conda init`
+```
 
-- `source ~/.bashrc`
+source activate env_py2-7
+
+
+```
+
 
 ---
 
@@ -136,11 +146,11 @@ g++ -v
 ---
 #### teamviewer
 ```
-sudo dpkg -i '/home/zb/Downloads/teamviewer_15.1.3937_amd64.deb' 
+sudo dpkg -i '/home/zb/Downloads/teamviewer_15.1.3937_amd64.deb'
 
 sudo apt-get install -f
 
-sudo dpkg -i '/home/zb/Downloads/teamviewer_15.1.3937_amd64.deb' 
+sudo dpkg -i '/home/zb/Downloads/teamviewer_15.1.3937_amd64.deb'
 
 
 sudo teamviewer daemon stop

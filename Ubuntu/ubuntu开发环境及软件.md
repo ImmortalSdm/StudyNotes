@@ -74,9 +74,14 @@ sudo apt-get install vim
 #### gcc-5和g++-5
 
 ---
+#### teamviewer
+```
+sudo dpkg -i '/home/zb/Downloads/teamviewer_15.1.3937_amd64.deb' 
 
+sudo apt-get install -f
 
-
+sudo dpkg -i '/home/zb/Downloads/teamviewer_15.1.3937_amd64.deb' 
+```
 
 ---
 

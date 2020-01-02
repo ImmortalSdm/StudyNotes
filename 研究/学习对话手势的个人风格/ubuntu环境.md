@@ -56,10 +56,10 @@ sudo apt update
 
 安装
 ```
-sudo apt-get install gcc-4.8
+sudo apt-get install gcc-5
 ```
 ```
-sudo apt-get install g++-4.8
+sudo apt-get install g++-5
 ```
 
 装完后进入到/usr/bin目录下
@@ -70,12 +70,12 @@ ls -l gcc*
 > lrwxrwxrwx 1 root root 7th May 16 18:16 /usr/bin/gcc -> gcc-9.0
 
 
-发现gcc链接到gcc-9.0, 需要将它改为链接到gcc-4.8，方法如下:
+发现gcc链接到gcc-9.0, 需要将它改为链接到gcc-5，方法如下:
 ```
 sudo mv gcc gcc.bak #备份
 ```
 ```
-sudo ln -s gcc-4.8 gcc #重新链接
+sudo ln -s gcc-5 gcc #重新链接
 ```
 
 再查看gcc版本号：
@@ -90,12 +90,12 @@ ls -l g++*
 > lrwxrwxrwx 1 root root 7th May 15:17 g++ -> g++-7.3
 
 
-需要将g++链接改为g++ -4.8：
+需要将g++链接改为g++ -5：
 ```
 sudo mv g++ g++.bak
 ```
 ```
-sudo ln -s g++-4.8 g++
+sudo ln -s g++-5 g++
 ```
 
 查看g++版本号：
@@ -133,8 +133,21 @@ sudo vim ~/.bashrc
 ```
 
 ```
-export PATH=/usr/local/cuda-9.0/bin${PATH:+:$PATH}}
-export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export PATH=/usr/local/cuda/bin${PATH:+:$PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+```
+```
+source ~/.bashrc
+```
+
+切换cuda
+```
+cd /usr/local
+sudo rm -R -v cuda
+
+sudo ln -s /usr/local/cuda-9.0 /usr/local/cuda
+
+sudo ln -s /usr/local/cuda-10.0 /usr/local/cuda
 ```
 
 ### 4. 安装cuDNN
@@ -146,13 +159,13 @@ export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY
 cd cudnn-9.0-linux-x64-v7.6.2.24
 ```
 ```
-sudo cp cuda/include/cudnn.h    /usr/local/cuda/include
+sudo cp cuda/include/cudnn.h    /usr/local/cuda-9.0/include
 ```
 ```
-sudo cp cuda/lib64/libcudnn*    /usr/local/cuda/lib64
+sudo cp cuda/lib64/libcudnn*    /usr/local/cuda-9.0/lib64
 ```
 ```
-sudo chmod a+r /usr/local/cuda/include/cudnn.h  /usr/local/cuda/lib64/libcudnn*
+sudo chmod a+r /usr/local/cuda/include/cudnn.h  /usr/local/cuda-9.0/lib64/libcudnn*
 ```
 ---
 

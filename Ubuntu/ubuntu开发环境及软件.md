@@ -90,6 +90,13 @@ sudo apt-get install vim
 
 #### Google上网助手
 
+
+解压文件
+```
+cd /home/zb/Downloads/Ghelper_1.4.6.beta
+```
+Chrome浏览器中，添加已解压扩展程序ghelper_source
+
 ---
 
 #### gcc-5和g++-5

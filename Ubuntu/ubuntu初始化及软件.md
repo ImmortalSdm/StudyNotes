@@ -54,7 +54,7 @@ git config --global user.name "zb"
 
 git config --global user.email "1037976812@qq.com"
 
-
+git config --global credential.helper store #记住密码
 ```
 
 ---

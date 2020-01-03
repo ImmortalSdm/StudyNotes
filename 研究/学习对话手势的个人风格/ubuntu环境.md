@@ -6,6 +6,7 @@ sudo apt-get install ffmpeg
 ```
 conda create --name env_py2-7 python=2.7 anaconda
 conda create --name env_py3-7 python=3.7 anaconda
+conda create --name env_py3-6 python=3.6 anaconda
 ```
 
 
@@ -13,6 +14,7 @@ conda create --name env_py3-7 python=3.7 anaconda
 ```
 source activate env_py2-7
 source activate env_py3-7
+source activate env_py3-6
 ```
 
 ```
@@ -109,6 +111,7 @@ g++ -v
 ```
 sudo sh cuda_9.0.176_384.81_linux.run
 ```
+
 之前已经安装过显卡驱动程序，故在提问是否安装显卡驱动时选择no
 
 其他选择默认路径或者yes即可。
@@ -145,9 +148,13 @@ source ~/.bashrc
 cd /usr/local
 sudo rm -R -v cuda
 
+sudo ln -s /usr/local/cuda-8.0 /usr/local/cuda
+
 sudo ln -s /usr/local/cuda-9.0 /usr/local/cuda
 
 sudo ln -s /usr/local/cuda-10.0 /usr/local/cuda
+
+source ~/.bashrc
 ```
 
 ### 4. 安装cuDNN
@@ -159,13 +166,13 @@ sudo ln -s /usr/local/cuda-10.0 /usr/local/cuda
 cd cudnn-9.0-linux-x64-v7.6.2.24
 ```
 ```
-sudo cp cuda/include/cudnn.h    /usr/local/cuda-9.0/include
+sudo cp cuda/include/cudnn.h    /usr/local/cuda-8.0/include
 ```
 ```
-sudo cp cuda/lib64/libcudnn*    /usr/local/cuda-9.0/lib64
+sudo cp cuda/lib64/libcudnn*    /usr/local/cuda-8.0/lib64
 ```
 ```
-sudo chmod a+r /usr/local/cuda/include/cudnn.h  /usr/local/cuda-9.0/lib64/libcudnn*
+sudo chmod a+r /usr/local/cuda/include/cudnn.h  /usr/local/cuda-8.0/lib64/libcudnn*
 ```
 ---
 

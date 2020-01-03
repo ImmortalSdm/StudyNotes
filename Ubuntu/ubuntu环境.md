@@ -157,6 +157,42 @@ sudo ln -s /usr/local/cuda-10.0 /usr/local/cuda
 source ~/.bashrc
 ```
 
+---
+
+#### cuda8.0 比较特殊
+
+- 直接安装若报错——安装不了tool
+
+```
+sh cuda_8.0.61_375.26_linux.run --tar mxvf
+
+sudo cp -R -v InstallUtils.pm /usr/lib/x86_64-linux-gnu/perl-base
+
+export $PERL5LIB
+```
+
+- 再安装报错——确认路径问题，则
+```
+sudo gedit /etc/profile # 加入export PATH=/usr/local/cuda/bin:$PATH
+```
+```
+sudo gedit /etc/ld.so.conf.d/cuda.conf # 加入/usr/local/cuda/lib64
+```
+```
+sudo ldconfig
+```
+
+- 打补丁
+
+- 测试
+```
+cd /usr/local/cuda-8.0/samples/1_Utilities/deviceQuery  
+make -j4  
+sudo ./deviceQuery  
+```
+
+---
+
 ### 4. 安装cuDNN
 
 ##### 4.1 解压cuDNN
@@ -167,12 +203,18 @@ cd cudnn-9.0-linux-x64-v7.6.2.24
 ```
 ```
 sudo cp cuda/include/cudnn.h    /usr/local/cuda-8.0/include
+sudo cp cuda/include/cudnn.h    /usr/local/cuda-9.0/include
+sudo cp cuda/include/cudnn.h    /usr/local/cuda-10.0/include
 ```
 ```
 sudo cp cuda/lib64/libcudnn*    /usr/local/cuda-8.0/lib64
+sudo cp cuda/lib64/libcudnn*    /usr/local/cuda-9.0/lib64
+sudo cp cuda/lib64/libcudnn*    /usr/local/cuda-10.0/lib64
 ```
 ```
 sudo chmod a+r /usr/local/cuda/include/cudnn.h  /usr/local/cuda-8.0/lib64/libcudnn*
+sudo chmod a+r /usr/local/cuda/include/cudnn.h  /usr/local/cuda-9.0/lib64/libcudnn*
+sudo chmod a+r /usr/local/cuda/include/cudnn.h  /usr/local/cuda-10.0/lib64/libcudnn*
 ```
 ---
 

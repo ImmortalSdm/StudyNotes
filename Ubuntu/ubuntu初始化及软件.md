@@ -161,8 +161,13 @@ sudo apt-get install -f
 sudo dpkg -i '/home/zb/Downloads/teamviewer_15.1.3937_amd64.deb'
 
 
+sudo teamviewer --daemon enable
+sudo systemctl start teamviewerd.service
+
 sudo teamviewer daemon stop
 sudo teamviewer daemon start
+
+
 ```
 
 ---

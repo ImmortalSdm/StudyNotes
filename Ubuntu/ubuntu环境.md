@@ -148,13 +148,15 @@ source ~/.bashrc
 cd /usr/local
 sudo rm -R -v cuda
 
+# cycleGAN
 sudo ln -s /usr/local/cuda-8.0 /usr/local/cuda
 
+# StylesOfConversationalGesture
 sudo ln -s /usr/local/cuda-9.0 /usr/local/cuda
 
+# openpose/caffe
 sudo ln -s /usr/local/cuda-10.0 /usr/local/cuda
 
-source ~/.bashrc
 ```
 
 ---

@@ -1,6 +1,5 @@
 ##### 显卡问题
 
-
 - 进入grub界面后
 - advanced options for Ubuntu
 - 再进入恢复模式

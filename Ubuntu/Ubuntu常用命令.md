@@ -1,3 +1,21 @@
+##### 显卡问题
+
+
+- 进入grub界面后
+- advanced options for Ubuntu
+- 再进入恢复模式
+- 选择root Drop to root shell prompt回车
+- 等一会，再次回车
+- `mount -o remount /`
+- `vi /etc/default/grub`
+- "quiet splash"改为"quiet splash nomodeset"
+- `:wq`保存
+- `update-grub`更新
+- ctrl+D
+- 选择resume Resume normal boot
+
+---
+
 ##### 更新
 ```
 sudo apt-get update

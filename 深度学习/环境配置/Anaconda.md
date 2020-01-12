@@ -24,7 +24,7 @@ activate tensorFlow
 
 关闭Anaconda虚拟环境
 ```
-deactivate tensorflow
+source deactivate env_py3-6
 ```
 
 ---

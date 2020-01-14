@@ -59,12 +59,10 @@ rm -rf files/*
 ##### 查看显卡内存
 
 ```
-watch -n 3 nvidia-smi
 watch -n 1 nvidia-smi
-watch -n 0.5 nvidia-smi
 ```
 ```
-watch -n 3 nvidia-smi -a --display=utilization
+watch -n 1 nvidia-smi -a --display=utilization
 ```
 ---
 

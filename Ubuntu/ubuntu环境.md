@@ -136,7 +136,7 @@ sudo vim ~/.bashrc
 ```
 
 ```
-export PATH=/usr/local/cuda/bin${PATH:+:$PATH}}
+export PATH=/usr/local/cuda/bin${PATH:+:$PATH}
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
 ```
@@ -175,7 +175,8 @@ export $PERL5LIB
 
 - 再安装报错——确认路径问题，则
 ```
-sudo gedit /etc/profile # 加入export PATH=/usr/local/cuda/bin:$PATH
+sudo gedit /etc/profile 
+# 加入export PATH=/usr/local/cuda/bin${PATH:+:$PATH}
 ```
 ```
 sudo gedit /etc/ld.so.conf.d/cuda.conf # 加入/usr/local/cuda/lib64

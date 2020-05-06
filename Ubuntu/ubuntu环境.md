@@ -5,8 +5,13 @@ sudo apt-get install ffmpeg
 ##### 创建anaconda环境
 ```
 conda create --name env_py2-7 python=2.7 anaconda
+
 conda create --name env_py3-7 python=3.7 anaconda
+
 conda create --name env_py3-6 python=3.6 anaconda
+
+# Music-oriented Dance Video Synthesis with Pose Perceptual Loss
+conda create --name env_py3-5_MODVS python=3.5 anaconda
 ```
 
 
@@ -15,6 +20,7 @@ conda create --name env_py3-6 python=3.6 anaconda
 source activate env_py2-7
 source activate env_py3-7
 source activate env_py3-6
+source activate env_py3-5_MODVS
 ```
 
 ```
@@ -25,6 +31,11 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-gpu==1.13.1
 
 ```
 pip install -r requirments.txt
+```
+
+cv2：
+```
+conda install opencv
 ```
 
 ---

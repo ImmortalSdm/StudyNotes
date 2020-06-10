@@ -31,6 +31,11 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-gpu==1.13.1
 
 ```
 pip install -r requirments.txt
+
+#或者用conda
+
+conda install pandas==0.24.2
+pip install tqdm==4.32.2
 ```
 
 cv2：

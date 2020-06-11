@@ -19,6 +19,8 @@
 
 #### anaconda
 
+https://www.anaconda.com/products/individual
+
 - bash命令运行.sh的安装包(复制到home目录，才会安装在这里)
 
 - Do you wish to proceed with the installation of Microsoft VSCode? [yes|no]”，输入no

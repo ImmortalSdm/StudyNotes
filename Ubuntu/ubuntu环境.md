@@ -12,6 +12,9 @@ conda create --name env_py3-6 python=3.6 anaconda
 
 # Music-oriented Dance Video Synthesis with Pose Perceptual Loss
 conda create --name env_py3-5_MODVS python=3.5 anaconda
+
+# 虚拟机
+conda create --name env_py2-7 python=2.7 anaconda
 ```
 
 

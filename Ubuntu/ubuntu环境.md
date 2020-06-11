@@ -43,6 +43,11 @@ cv2：
 conda install opencv
 ```
 
+youtube-dl：
+```
+sudo apt-get install youtube-dl
+```
+
 ---
 
 ### 1. 下载cuda及其补丁

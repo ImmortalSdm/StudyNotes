@@ -41,6 +41,9 @@ pip install tqdm==4.32.2
 cv2：
 ```
 conda install opencv
+
+
+
 ```
 
 youtube-dl：

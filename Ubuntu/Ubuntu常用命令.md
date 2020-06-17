@@ -1,3 +1,29 @@
+
+##### 交换空间
+http://www.itkeyword.com/doc/7736288632257028860/system-ubuntu-expressoracleup
+
+```
+#查看
+free -m
+
+mkdir swap
+cd swap 
+
+#1024*200000000=20g
+sudo dd if=/dev/zero of=swapfile bs=1024 count=200000000
+
+#转换成 Swap 文件
+sudo mkswap swapfile
+
+#激活
+sudo swapon swapfile
+
+#再查看
+free -m
+```
+
+
+
 ##### 显卡问题
 
 - 进入grub界面后

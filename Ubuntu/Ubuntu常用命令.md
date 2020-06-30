@@ -1,5 +1,5 @@
 
-##### 交换空间
+##### 增加交换空间
 http://www.itkeyword.com/doc/7736288632257028860/system-ubuntu-expressoracleup
 
 ```
@@ -22,7 +22,12 @@ sudo swapon swapfile
 free -m
 ```
 
-
+卸载
+```
+#进入建立的 swap 文件目录。执行下列命令。 
+sudo swapoff swapfile
+```
+如果需要一直保持这个 swap ，可以把它写入 /etc/fstab 文件。  
 
 ##### 显卡问题
 

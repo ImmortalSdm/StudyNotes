@@ -9,8 +9,8 @@ free -m
 mkdir swap
 cd swap 
 
-#1024*200000000=20g
-sudo dd if=/dev/zero of=swapfile bs=1024 count=200000000
+#1024*20000000=20g
+sudo dd if=/dev/zero of=swapfile bs=1024 count=30000000
 
 #转换成 Swap 文件
 sudo mkswap swapfile

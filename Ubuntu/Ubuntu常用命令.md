@@ -1,6 +1,5 @@
 
 ##### 增加交换空间
-http://www.itkeyword.com/doc/7736288632257028860/system-ubuntu-expressoracleup
 
 ```
 #查看
@@ -28,6 +27,11 @@ free -m
 sudo swapoff swapfile
 ```
 如果需要一直保持这个 swap ，可以把它写入 /etc/fstab 文件。  
+
+```
+sudo vim /etc/fstab
+home/lch/swap/swapfile none swap sw 0 0
+```
 
 ##### 显卡问题
 

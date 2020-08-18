@@ -1,3 +1,9 @@
+###### deb
+
+- `sudo dpkg -i`命令运行.deb安装文件
+- `sudo apt-get -f install`
+- `sudo apt-get update --fix-missing`
+- 再`sudo dpkg -i`命令运行.deb安装文件
 
 ##### 增加交换空间
 

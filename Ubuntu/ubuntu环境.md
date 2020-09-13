@@ -170,7 +170,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PAT
 source ~/.bashrc
 ```
 
-切换cuda
+## 切换cuda
 ```
 cd /usr/local
 sudo rm -R -v cuda

@@ -5,6 +5,17 @@
 - `sudo apt-get update --fix-missing`
 - 再`sudo dpkg -i`命令运行.deb安装文件
 
+###### tensorboard
+
+```
+source activate env_py3-7
+```
+
+```
+tensorboard --logdir=/media/zb/411aa793-2c7b-9543-a172-1baa582a3d91/StylesOfConversationalGesture/logs/STGCN/No5_down10_figure
+```
+
+
 ##### 增加交换空间
 
 ```

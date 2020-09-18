@@ -12,7 +12,7 @@ source activate env_py3-7
 ```
 
 ```
-tensorboard --logdir=/media/zb/411aa793-2c7b-9543-a172-1baa582a3d91/StylesOfConversationalGesture/logs/STGCN/No5_down10_figure
+tensorboard --logdir=/media/zb/411aa793-2c7b-9543-a172-1baa582a3d91/StylesOfConversationalGesture/tmp/audio_to_pose
 ```
 
 

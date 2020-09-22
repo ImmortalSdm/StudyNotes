@@ -23,11 +23,15 @@ sudo ln -s /usr/local/cuda-10.0 /usr/local/cuda
 ###### tensorboard
 
 ```
-source activate env_py3-7
+
 ```
 
 ```
+source activate env_py3-7
+
 tensorboard --logdir=/media/zb/411aa793-2c7b-9543-a172-1baa582a3d91/StylesOfConversationalGesture/tmp/audio_to_pose
+
+tensorboard --logdir=/media/zb/411aa793-2c7b-9543-a172-1baa582a3d91/StylesOfConversationalGesture/tmp/stgcn_model
 ```
 
 

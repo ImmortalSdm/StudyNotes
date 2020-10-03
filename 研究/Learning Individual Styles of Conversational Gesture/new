@@ -1,558 +1,289 @@
-Epoch 477: Iteration: 0. g_loss: 0.1938, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1938
-Epoch 477: Iteration: 100. g_loss: 0.1957, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1957
-Epoch 477: Iteration: 200. g_loss: 0.1941, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1941
-Epoch 477: Iteration: 300. g_loss: 0.1935, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1935
-*******************epochs：478**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 132.22it/s]
-周期开始时：Epoch 478 (step 143878): validation loss: 0.6454161, pck: 0.6442178090413411
-Epoch 478: Iteration: 0. g_loss: 0.1923, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1923
-Epoch 478: Iteration: 100. g_loss: 0.1945, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1945
-Epoch 478: Iteration: 200. g_loss: 0.1944, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1944
-Epoch 478: Iteration: 300. g_loss: 0.1935, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1935
-*******************epochs：479**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 129.76it/s]
-周期开始时：Epoch 479 (step 144179): validation loss: 0.633268, pck: 0.6556828816731771
-Epoch 479: Iteration: 0. g_loss: 0.1919, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1919
-Epoch 479: Iteration: 100. g_loss: 0.1928, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1928
-Epoch 479: Iteration: 200. g_loss: 0.1933, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1933
-Epoch 479: Iteration: 300. g_loss: 0.1927, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1927
-*******************epochs：480**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 133.86it/s]
-周期开始时：Epoch 480 (step 144480): validation loss: 0.6398903, pck: 0.6425437927246094
-Epoch 480: Iteration: 0. g_loss: 0.2061, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.2061
-Epoch 480: Iteration: 100. g_loss: 0.1910, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1910
-Epoch 480: Iteration: 200. g_loss: 0.1916, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1916
-Epoch 480: Iteration: 300. g_loss: 0.1930, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1930
-*******************epochs：481**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 133.64it/s]
-周期开始时：Epoch 481 (step 144781): validation loss: 0.6449032, pck: 0.644805908203125
-Epoch 481: Iteration: 0. g_loss: 0.2092, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.2092
-Epoch 481: Iteration: 100. g_loss: 0.1936, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1936
-Epoch 481: Iteration: 200. g_loss: 0.1939, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1939
-Epoch 481: Iteration: 300. g_loss: 0.1940, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1940
-*******************epochs：482**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 133.25it/s]
-周期开始时：Epoch 482 (step 145082): validation loss: 0.645248, pck: 0.6414120992024739
-Epoch 482: Iteration: 0. g_loss: 0.1921, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1921
-Epoch 482: Iteration: 100. g_loss: 0.1934, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1934
-Epoch 482: Iteration: 200. g_loss: 0.1931, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1931
-Epoch 482: Iteration: 300. g_loss: 0.1926, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1926
-*******************epochs：483**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 133.49it/s]
-周期开始时：Epoch 483 (step 145383): validation loss: 0.6333009, pck: 0.6505044301350911
-Epoch 483: Iteration: 0. g_loss: 0.2062, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.2062
-Epoch 483: Iteration: 100. g_loss: 0.1910, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1910
-Epoch 483: Iteration: 200. g_loss: 0.1923, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1923
-Epoch 483: Iteration: 300. g_loss: 0.1923, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1923
-*******************epochs：484**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 135.44it/s]
-周期开始时：Epoch 484 (step 145684): validation loss: 0.64162433, pck: 0.643781026204427
-Epoch 484: Iteration: 0. g_loss: 0.1914, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1914
-Epoch 484: Iteration: 100. g_loss: 0.1932, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1932
-Epoch 484: Iteration: 200. g_loss: 0.1922, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1922
-Epoch 484: Iteration: 300. g_loss: 0.1917, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1917
-*******************epochs：485**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 133.71it/s]
-周期开始时：Epoch 485 (step 145985): validation loss: 0.64333284, pck: 0.6424986521402996
-Epoch 485: Iteration: 0. g_loss: 0.1896, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1896
-Epoch 485: Iteration: 100. g_loss: 0.1949, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1949
-Epoch 485: Iteration: 200. g_loss: 0.1928, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1928
-Epoch 485: Iteration: 300. g_loss: 0.1929, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1929
-*******************epochs：486**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 135.29it/s]
-周期开始时：Epoch 486 (step 146286): validation loss: 0.63956034, pck: 0.6475531260172526
-Epoch 486: Iteration: 0. g_loss: 0.1975, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1975
-Epoch 486: Iteration: 100. g_loss: 0.1939, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1939
-Epoch 486: Iteration: 200. g_loss: 0.1940, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1940
-Epoch 486: Iteration: 300. g_loss: 0.1933, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1933
-*******************epochs：487**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 131.92it/s]
-周期开始时：Epoch 487 (step 146587): validation loss: 0.6382835, pck: 0.6491038004557292
-Epoch 487: Iteration: 0. g_loss: 0.1855, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1855
-Epoch 487: Iteration: 100. g_loss: 0.1901, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1901
-Epoch 487: Iteration: 200. g_loss: 0.1907, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1907
-Epoch 487: Iteration: 300. g_loss: 0.1917, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1917
-*******************epochs：488**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 135.69it/s]
-周期开始时：Epoch 488 (step 146888): validation loss: 0.6450728, pck: 0.6445134480794271
-Epoch 488: Iteration: 0. g_loss: 0.1960, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1960
-Epoch 488: Iteration: 100. g_loss: 0.1923, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1923
-Epoch 488: Iteration: 200. g_loss: 0.1932, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1932
-Epoch 488: Iteration: 300. g_loss: 0.1918, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1918
-*******************epochs：489**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 135.18it/s]
-周期开始时：Epoch 489 (step 147189): validation loss: 0.64333737, pck: 0.647539774576823
-Epoch 489: Iteration: 0. g_loss: 0.1931, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1931
-Epoch 489: Iteration: 100. g_loss: 0.1926, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1926
-Epoch 489: Iteration: 200. g_loss: 0.1934, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1934
-Epoch 489: Iteration: 300. g_loss: 0.1925, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1925
-*******************epochs：490**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 135.15it/s]
-周期开始时：Epoch 490 (step 147490): validation loss: 0.64589655, pck: 0.6453482309977213
-Epoch 490: Iteration: 0. g_loss: 0.2079, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.2079
-Epoch 490: Iteration: 100. g_loss: 0.1920, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1920
-Epoch 490: Iteration: 200. g_loss: 0.1916, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1916
-Epoch 490: Iteration: 300. g_loss: 0.1907, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1907
-*******************epochs：491**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 137.17it/s]
-周期开始时：Epoch 491 (step 147791): validation loss: 0.64131284, pck: 0.6436646779378254
-Epoch 491: Iteration: 0. g_loss: 0.1898, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1898
-Epoch 491: Iteration: 100. g_loss: 0.1946, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1946
-Epoch 491: Iteration: 200. g_loss: 0.1933, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1933
-Epoch 491: Iteration: 300. g_loss: 0.1929, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1929
-*******************epochs：492**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 133.56it/s]
-周期开始时：Epoch 492 (step 148092): validation loss: 0.6421813, pck: 0.6452293395996094
-Epoch 492: Iteration: 0. g_loss: 0.2211, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.2211
-Epoch 492: Iteration: 100. g_loss: 0.1933, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1933
-Epoch 492: Iteration: 200. g_loss: 0.1931, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1931
-Epoch 492: Iteration: 300. g_loss: 0.1929, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1929
-*******************epochs：493**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 135.28it/s]
-周期开始时：Epoch 493 (step 148393): validation loss: 0.63548386, pck: 0.6519813537597656
-Epoch 493: Iteration: 0. g_loss: 0.1823, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1823
-Epoch 493: Iteration: 100. g_loss: 0.1893, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1893
-Epoch 493: Iteration: 200. g_loss: 0.1904, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1904
-Epoch 493: Iteration: 300. g_loss: 0.1904, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1904
-*******************epochs：494**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 133.93it/s]
-周期开始时：Epoch 494 (step 148694): validation loss: 0.6467253, pck: 0.6415545145670574
-Epoch 494: Iteration: 0. g_loss: 0.1855, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1855
-Epoch 494: Iteration: 100. g_loss: 0.1931, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1931
-Epoch 494: Iteration: 200. g_loss: 0.1928, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1928
-Epoch 494: Iteration: 300. g_loss: 0.1923, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1923
-*******************epochs：495**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 131.70it/s]
-周期开始时：Epoch 495 (step 148995): validation loss: 0.64243054, pck: 0.6439062754313151
-Epoch 495: Iteration: 0. g_loss: 0.2038, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.2038
-Epoch 495: Iteration: 100. g_loss: 0.1902, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1902
-Epoch 495: Iteration: 200. g_loss: 0.1906, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1906
-Epoch 495: Iteration: 300. g_loss: 0.1906, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1906
-*******************epochs：496**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 133.65it/s]
-周期开始时：Epoch 496 (step 149296): validation loss: 0.6438394, pck: 0.6434071858723958
-Epoch 496: Iteration: 0. g_loss: 0.1894, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1894
-Epoch 496: Iteration: 100. g_loss: 0.1906, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1906
-Epoch 496: Iteration: 200. g_loss: 0.1904, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1904
-Epoch 496: Iteration: 300. g_loss: 0.1899, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1899
-*******************epochs：497**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 132.03it/s]
-周期开始时：Epoch 497 (step 149597): validation loss: 0.64284265, pck: 0.6408297220865885
-Epoch 497: Iteration: 0. g_loss: 0.1863, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1863
-Epoch 497: Iteration: 100. g_loss: 0.1936, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1936
-Epoch 497: Iteration: 200. g_loss: 0.1930, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1930
-Epoch 497: Iteration: 300. g_loss: 0.1929, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1929
-*******************epochs：498**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 131.84it/s]
-周期开始时：Epoch 498 (step 149898): validation loss: 0.63948685, pck: 0.6457818349202474
-Epoch 498: Iteration: 0. g_loss: 0.1895, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1895
-Epoch 498: Iteration: 100. g_loss: 0.1917, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1917
-Epoch 498: Iteration: 200. g_loss: 0.1919, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1919
-Epoch 498: Iteration: 300. g_loss: 0.1924, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1924
-*******************epochs：499**********************
-100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:03<00:00, 132.11it/s]
-周期开始时：Epoch 499 (step 150199): validation loss: 0.64407575, pck: 0.6451670328776042
-Epoch 499: Iteration: 0. g_loss: 0.1996, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1996
-Epoch 499: Iteration: 100. g_loss: 0.1922, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1922
-Epoch 499: Iteration: 200. g_loss: 0.1911, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1911
-Epoch 499: Iteration: 300. g_loss: 0.1905, g_gan_loss: 0.0000, loss_STGCN: 0.0000, g_reg_loss: 0.1905
-**********模型已训练完毕**********
-(env_py2-7) zb@zb-QiTianM415-D075:/media/zb/411aa793-2c7b-9543-a172-1baa582a3d91/StylesOfConversationalGesture/MyGesturesCode$ python -m audio_to_multiple_pose_gan.train --name oliver_stgcn_1000 --arch_g audio_to_pose_gans --arch_d D_patchgan --speaker oliver --output_path /media/zb/411aa793-2c7b-9543-a172-1baa582a3d91/StylesOfConversationalGesture/tmp --train_csv ../train_oliver.csv --epochs 1000 --gans 0 --stgcn 1
-Using TensorFlow backend.
-/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
-  data = yaml.load(f.read()) or {}
-/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/site-packages/librosa/__init__.py:40: DeprecationWarning: You are using librosa with Python 2. Please note that librosa 0.7 will be the last version to support Python 2, after which it will require Python 3 or later.
-  DeprecationWarning)
-**********建立模型**********
-2020-10-03 09:27:41.321954: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2020-10-03 09:27:41.467544: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
-2020-10-03 09:27:41.467963: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties: 
-name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.77
-pciBusID: 0000:01:00.0
-totalMemory: 10.76GiB freeMemory: 10.15GiB
-2020-10-03 09:27:41.467979: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
-2020-10-03 09:27:42.282568: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
-2020-10-03 09:27:42.282614: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
-2020-10-03 09:27:42.282628: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
-2020-10-03 09:27:42.282738: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8813 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
-**********模型已建立**********
-**********训练模型**********
-Traceback (most recent call last):
-  File "/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/runpy.py", line 174, in _run_module_as_main
-    "__main__", fname, loader, pkg_name)
-  File "/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/runpy.py", line 72, in _run_code
-    exec code in run_globals
-  File "/media/zb/411aa793-2c7b-9543-a172-1baa582a3d91/StylesOfConversationalGesture/MyGesturesCode/audio_to_multiple_pose_gan/train.py", line 28, in <module>
-    main()
-  File "/media/zb/411aa793-2c7b-9543-a172-1baa582a3d91/StylesOfConversationalGesture/MyGesturesCode/audio_to_multiple_pose_gan/train.py", line 23, in main
-    pgan.train(args.epochs)
-  File "audio_to_multiple_pose_gan/model.py", line 600, in train
-    variables, "stgcn_var/st_gcn_9/sequential_11/batch_normalization_50/moving_variance:0"),
-  File "/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/site-packages/tensorflow/python/training/saver.py", line 1284, in __init__
-    self.build()
-  File "/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/site-packages/tensorflow/python/training/saver.py", line 1296, in build
-    self._build(self._filename, build_save=True, build_restore=True)
-  File "/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/site-packages/tensorflow/python/training/saver.py", line 1333, in _build
-    build_save=build_save, build_restore=build_restore)
-  File "/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/site-packages/tensorflow/python/training/saver.py", line 759, in _build_internal
-    saveables = self._ValidateAndSliceInputs(names_to_saveables)
-  File "/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/site-packages/tensorflow/python/training/saver.py", line 666, in _ValidateAndSliceInputs
-    for converted_saveable_object in self.SaveableObjectsForOp(op, name):
-  File "/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/site-packages/tensorflow/python/training/saver.py", line 630, in SaveableObjectsForOp
-    variable = ops.internal_convert_to_tensor(op, as_ref=True)
-  File "/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 1107, in internal_convert_to_tensor
-    ret = conversion_func(value, dtype=dtype, name=name, as_ref=as_ref)
-  File "/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/site-packages/tensorflow/python/framework/constant_op.py", line 217, in _constant_tensor_conversion_function
-    return constant(v, dtype=dtype, name=name)
-  File "/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/site-packages/tensorflow/python/framework/constant_op.py", line 196, in constant
-    value, dtype=dtype, shape=shape, verify_shape=verify_shape))
-  File "/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/site-packages/tensorflow/python/framework/tensor_util.py", line 424, in make_tensor_proto
-    raise ValueError("None values not supported.")
-ValueError: None values not supported.
-(env_py2-7) zb@zb-QiTianM415-D075:/media/zb/411aa793-2c7b-9543-a172-1baa582a3d91/StylesOfConversationalGesture/MyGesturesCode$ python -m audio_to_multiple_pose_gan.train --name oliver_stgcn_1000 --arch_g audio_to_pose_gans --arch_d D_patchgan --speaker oliver --output_path /media/zb/411aa793-2c7b-9543-a172-1baa582a3d91/StylesOfConversationalGesture/tmp --train_csv ../train_oliver.csv --epochs 1000 --gans 0 --stgcn 1
-Using TensorFlow backend.
-/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/site-packages/dask/config.py:168: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
-  data = yaml.load(f.read()) or {}
-/home/zb/anaconda3/envs/env_py2-7/lib/python2.7/site-packages/librosa/__init__.py:40: DeprecationWarning: You are using librosa with Python 2. Please note that librosa 0.7 will be the last version to support Python 2, after which it will require Python 3 or later.
-  DeprecationWarning)
-**********建立模型**********
-2020-10-03 09:33:02.281485: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2020-10-03 09:33:02.414793: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
-2020-10-03 09:33:02.415247: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties: 
-name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.77
-pciBusID: 0000:01:00.0
-totalMemory: 10.76GiB freeMemory: 10.15GiB
-2020-10-03 09:33:02.415263: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
-2020-10-03 09:33:02.721644: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
-2020-10-03 09:33:02.721678: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
-2020-10-03 09:33:02.721685: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
-2020-10-03 09:33:02.721772: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8813 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
-**********模型已建立**********
-**********训练模型**********
-beta1_power
-beta2_power
-global_step
 model/stgcn_var/batch_normalization/beta
-model/stgcn_var/batch_normalization/beta/Adam
-model/stgcn_var/batch_normalization/beta/Adam_1
+
+
 model/stgcn_var/batch_normalization/gamma
-model/stgcn_var/batch_normalization/gamma/Adam
-model/stgcn_var/batch_normalization/gamma/Adam_1
+
+
 model/stgcn_var/batch_normalization/moving_mean
 model/stgcn_var/batch_normalization/moving_variance
 model/stgcn_var/conv2d_22/bias
-model/stgcn_var/conv2d_22/bias/Adam
-model/stgcn_var/conv2d_22/bias/Adam_1
+
+
 model/stgcn_var/conv2d_22/kernel
-model/stgcn_var/conv2d_22/kernel/Adam
-model/stgcn_var/conv2d_22/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn/conv_temporal_graphical/conv2d/bias
-model/stgcn_var/st_gcn/conv_temporal_graphical/conv2d/bias/Adam
-model/stgcn_var/st_gcn/conv_temporal_graphical/conv2d/bias/Adam_1
+
+
 model/stgcn_var/st_gcn/conv_temporal_graphical/conv2d/kernel
-model/stgcn_var/st_gcn/conv_temporal_graphical/conv2d/kernel/Adam
-model/stgcn_var/st_gcn/conv_temporal_graphical/conv2d/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn/sequential/batch_normalization_1/beta
-model/stgcn_var/st_gcn/sequential/batch_normalization_1/beta/Adam
-model/stgcn_var/st_gcn/sequential/batch_normalization_1/beta/Adam_1
+
+
 model/stgcn_var/st_gcn/sequential/batch_normalization_1/gamma
-model/stgcn_var/st_gcn/sequential/batch_normalization_1/gamma/Adam
-model/stgcn_var/st_gcn/sequential/batch_normalization_1/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn/sequential/batch_normalization_1/moving_mean
 model/stgcn_var/st_gcn/sequential/batch_normalization_1/moving_variance
 model/stgcn_var/st_gcn/sequential/batch_normalization_2/beta
-model/stgcn_var/st_gcn/sequential/batch_normalization_2/beta/Adam
-model/stgcn_var/st_gcn/sequential/batch_normalization_2/beta/Adam_1
+
+
 model/stgcn_var/st_gcn/sequential/batch_normalization_2/gamma
-model/stgcn_var/st_gcn/sequential/batch_normalization_2/gamma/Adam
-model/stgcn_var/st_gcn/sequential/batch_normalization_2/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn/sequential/batch_normalization_2/moving_mean
 model/stgcn_var/st_gcn/sequential/batch_normalization_2/moving_variance
 model/stgcn_var/st_gcn/sequential/conv2d_1/bias
-model/stgcn_var/st_gcn/sequential/conv2d_1/bias/Adam
-model/stgcn_var/st_gcn/sequential/conv2d_1/bias/Adam_1
+
+
 model/stgcn_var/st_gcn/sequential/conv2d_1/kernel
-model/stgcn_var/st_gcn/sequential/conv2d_1/kernel/Adam
-model/stgcn_var/st_gcn/sequential/conv2d_1/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_1/conv_temporal_graphical_1/conv2d_2/bias
-model/stgcn_var/st_gcn_1/conv_temporal_graphical_1/conv2d_2/bias/Adam
-model/stgcn_var/st_gcn_1/conv_temporal_graphical_1/conv2d_2/bias/Adam_1
+
+
 model/stgcn_var/st_gcn_1/conv_temporal_graphical_1/conv2d_2/kernel
-model/stgcn_var/st_gcn_1/conv_temporal_graphical_1/conv2d_2/kernel/Adam
-model/stgcn_var/st_gcn_1/conv_temporal_graphical_1/conv2d_2/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_3/beta
-model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_3/beta/Adam
-model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_3/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_3/gamma
-model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_3/gamma/Adam
-model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_3/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_3/moving_mean
 model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_3/moving_variance
 model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_4/beta
-model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_4/beta/Adam
-model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_4/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_4/gamma
-model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_4/gamma/Adam
-model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_4/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_4/moving_mean
 model/stgcn_var/st_gcn_1/sequential_1/batch_normalization_4/moving_variance
 model/stgcn_var/st_gcn_1/sequential_1/conv2d_3/bias
-model/stgcn_var/st_gcn_1/sequential_1/conv2d_3/bias/Adam
-model/stgcn_var/st_gcn_1/sequential_1/conv2d_3/bias/Adam_1
+
+
 model/stgcn_var/st_gcn_1/sequential_1/conv2d_3/kernel
-model/stgcn_var/st_gcn_1/sequential_1/conv2d_3/kernel/Adam
-model/stgcn_var/st_gcn_1/sequential_1/conv2d_3/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_2/conv_temporal_graphical_2/conv2d_4/bias
-model/stgcn_var/st_gcn_2/conv_temporal_graphical_2/conv2d_4/bias/Adam
-model/stgcn_var/st_gcn_2/conv_temporal_graphical_2/conv2d_4/bias/Adam_1
+
+
 model/stgcn_var/st_gcn_2/conv_temporal_graphical_2/conv2d_4/kernel
-model/stgcn_var/st_gcn_2/conv_temporal_graphical_2/conv2d_4/kernel/Adam
-model/stgcn_var/st_gcn_2/conv_temporal_graphical_2/conv2d_4/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_5/beta
-model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_5/beta/Adam
-model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_5/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_5/gamma
-model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_5/gamma/Adam
-model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_5/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_5/moving_mean
 model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_5/moving_variance
 model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_6/beta
-model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_6/beta/Adam
-model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_6/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_6/gamma
-model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_6/gamma/Adam
-model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_6/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_6/moving_mean
 model/stgcn_var/st_gcn_2/sequential_2/batch_normalization_6/moving_variance
 model/stgcn_var/st_gcn_2/sequential_2/conv2d_5/bias
-model/stgcn_var/st_gcn_2/sequential_2/conv2d_5/bias/Adam
-model/stgcn_var/st_gcn_2/sequential_2/conv2d_5/bias/Adam_1
+
+
 model/stgcn_var/st_gcn_2/sequential_2/conv2d_5/kernel
-model/stgcn_var/st_gcn_2/sequential_2/conv2d_5/kernel/Adam
-model/stgcn_var/st_gcn_2/sequential_2/conv2d_5/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_3/conv_temporal_graphical_3/conv2d_6/bias
-model/stgcn_var/st_gcn_3/conv_temporal_graphical_3/conv2d_6/bias/Adam
-model/stgcn_var/st_gcn_3/conv_temporal_graphical_3/conv2d_6/bias/Adam_1
+
+
 model/stgcn_var/st_gcn_3/conv_temporal_graphical_3/conv2d_6/kernel
-model/stgcn_var/st_gcn_3/conv_temporal_graphical_3/conv2d_6/kernel/Adam
-model/stgcn_var/st_gcn_3/conv_temporal_graphical_3/conv2d_6/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_7/beta
-model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_7/beta/Adam
-model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_7/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_7/gamma
-model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_7/gamma/Adam
-model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_7/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_7/moving_mean
 model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_7/moving_variance
 model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_8/beta
-model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_8/beta/Adam
-model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_8/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_8/gamma
-model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_8/gamma/Adam
-model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_8/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_8/moving_mean
 model/stgcn_var/st_gcn_3/sequential_3/batch_normalization_8/moving_variance
 model/stgcn_var/st_gcn_3/sequential_3/conv2d_7/bias
-model/stgcn_var/st_gcn_3/sequential_3/conv2d_7/bias/Adam
-model/stgcn_var/st_gcn_3/sequential_3/conv2d_7/bias/Adam_1
+
+
 model/stgcn_var/st_gcn_3/sequential_3/conv2d_7/kernel
-model/stgcn_var/st_gcn_3/sequential_3/conv2d_7/kernel/Adam
-model/stgcn_var/st_gcn_3/sequential_3/conv2d_7/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_4/conv_temporal_graphical_4/conv2d_8/bias
-model/stgcn_var/st_gcn_4/conv_temporal_graphical_4/conv2d_8/bias/Adam
-model/stgcn_var/st_gcn_4/conv_temporal_graphical_4/conv2d_8/bias/Adam_1
+
+
 model/stgcn_var/st_gcn_4/conv_temporal_graphical_4/conv2d_8/kernel
-model/stgcn_var/st_gcn_4/conv_temporal_graphical_4/conv2d_8/kernel/Adam
-model/stgcn_var/st_gcn_4/conv_temporal_graphical_4/conv2d_8/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_10/beta
-model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_10/beta/Adam
-model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_10/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_10/gamma
-model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_10/gamma/Adam
-model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_10/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_10/moving_mean
 model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_10/moving_variance
 model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_9/beta
-model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_9/beta/Adam
-model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_9/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_9/gamma
-model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_9/gamma/Adam
-model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_9/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_9/moving_mean
 model/stgcn_var/st_gcn_4/sequential_4/batch_normalization_9/moving_variance
 model/stgcn_var/st_gcn_4/sequential_4/conv2d_9/bias
-model/stgcn_var/st_gcn_4/sequential_4/conv2d_9/bias/Adam
-model/stgcn_var/st_gcn_4/sequential_4/conv2d_9/bias/Adam_1
+
+
 model/stgcn_var/st_gcn_4/sequential_4/conv2d_9/kernel
-model/stgcn_var/st_gcn_4/sequential_4/conv2d_9/kernel/Adam
-model/stgcn_var/st_gcn_4/sequential_4/conv2d_9/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_4/sequential_5/batch_normalization_11/beta
-model/stgcn_var/st_gcn_4/sequential_5/batch_normalization_11/beta/Adam
-model/stgcn_var/st_gcn_4/sequential_5/batch_normalization_11/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_4/sequential_5/batch_normalization_11/gamma
-model/stgcn_var/st_gcn_4/sequential_5/batch_normalization_11/gamma/Adam
-model/stgcn_var/st_gcn_4/sequential_5/batch_normalization_11/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_4/sequential_5/batch_normalization_11/moving_mean
 model/stgcn_var/st_gcn_4/sequential_5/batch_normalization_11/moving_variance
 model/stgcn_var/st_gcn_4/sequential_5/conv2d_10/bias
-model/stgcn_var/st_gcn_4/sequential_5/conv2d_10/bias/Adam
-model/stgcn_var/st_gcn_4/sequential_5/conv2d_10/bias/Adam_1
+
+
 model/stgcn_var/st_gcn_4/sequential_5/conv2d_10/kernel
-model/stgcn_var/st_gcn_4/sequential_5/conv2d_10/kernel/Adam
-model/stgcn_var/st_gcn_4/sequential_5/conv2d_10/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_5/conv_temporal_graphical_5/conv2d_11/bias
-model/stgcn_var/st_gcn_5/conv_temporal_graphical_5/conv2d_11/bias/Adam
-model/stgcn_var/st_gcn_5/conv_temporal_graphical_5/conv2d_11/bias/Adam_1
+
+
 model/stgcn_var/st_gcn_5/conv_temporal_graphical_5/conv2d_11/kernel
-model/stgcn_var/st_gcn_5/conv_temporal_graphical_5/conv2d_11/kernel/Adam
-model/stgcn_var/st_gcn_5/conv_temporal_graphical_5/conv2d_11/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_12/beta
-model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_12/beta/Adam
-model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_12/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_12/gamma
-model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_12/gamma/Adam
-model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_12/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_12/moving_mean
 model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_12/moving_variance
 model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_13/beta
-model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_13/beta/Adam
-model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_13/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_13/gamma
-model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_13/gamma/Adam
-model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_13/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_13/moving_mean
 model/stgcn_var/st_gcn_5/sequential_6/batch_normalization_13/moving_variance
 model/stgcn_var/st_gcn_5/sequential_6/conv2d_12/bias
-model/stgcn_var/st_gcn_5/sequential_6/conv2d_12/bias/Adam
-model/stgcn_var/st_gcn_5/sequential_6/conv2d_12/bias/Adam_1
+
+
 model/stgcn_var/st_gcn_5/sequential_6/conv2d_12/kernel
-model/stgcn_var/st_gcn_5/sequential_6/conv2d_12/kernel/Adam
-model/stgcn_var/st_gcn_5/sequential_6/conv2d_12/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_6/conv_temporal_graphical_6/conv2d_13/bias
-model/stgcn_var/st_gcn_6/conv_temporal_graphical_6/conv2d_13/bias/Adam
-model/stgcn_var/st_gcn_6/conv_temporal_graphical_6/conv2d_13/bias/Adam_1
+
+
 model/stgcn_var/st_gcn_6/conv_temporal_graphical_6/conv2d_13/kernel
-model/stgcn_var/st_gcn_6/conv_temporal_graphical_6/conv2d_13/kernel/Adam
-model/stgcn_var/st_gcn_6/conv_temporal_graphical_6/conv2d_13/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_14/beta
-model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_14/beta/Adam
-model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_14/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_14/gamma
-model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_14/gamma/Adam
-model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_14/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_14/moving_mean
 model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_14/moving_variance
 model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_15/beta
-model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_15/beta/Adam
-model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_15/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_15/gamma
-model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_15/gamma/Adam
-model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_15/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_15/moving_mean
 model/stgcn_var/st_gcn_6/sequential_7/batch_normalization_15/moving_variance
 model/stgcn_var/st_gcn_6/sequential_7/conv2d_14/bias
-model/stgcn_var/st_gcn_6/sequential_7/conv2d_14/bias/Adam
-model/stgcn_var/st_gcn_6/sequential_7/conv2d_14/bias/Adam_1
+
+
 model/stgcn_var/st_gcn_6/sequential_7/conv2d_14/kernel
-model/stgcn_var/st_gcn_6/sequential_7/conv2d_14/kernel/Adam
-model/stgcn_var/st_gcn_6/sequential_7/conv2d_14/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_7/conv_temporal_graphical_7/conv2d_15/bias
-model/stgcn_var/st_gcn_7/conv_temporal_graphical_7/conv2d_15/bias/Adam
-model/stgcn_var/st_gcn_7/conv_temporal_graphical_7/conv2d_15/bias/Adam_1
+
+
 model/stgcn_var/st_gcn_7/conv_temporal_graphical_7/conv2d_15/kernel
-model/stgcn_var/st_gcn_7/conv_temporal_graphical_7/conv2d_15/kernel/Adam
-model/stgcn_var/st_gcn_7/conv_temporal_graphical_7/conv2d_15/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_16/beta
-model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_16/beta/Adam
-model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_16/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_16/gamma
-model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_16/gamma/Adam
-model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_16/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_16/moving_mean
 model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_16/moving_variance
 model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_17/beta
-model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_17/beta/Adam
-model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_17/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_17/gamma
-model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_17/gamma/Adam
-model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_17/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_17/moving_mean
 model/stgcn_var/st_gcn_7/sequential_8/batch_normalization_17/moving_variance
 model/stgcn_var/st_gcn_7/sequential_8/conv2d_16/bias
-model/stgcn_var/st_gcn_7/sequential_8/conv2d_16/bias/Adam
-model/stgcn_var/st_gcn_7/sequential_8/conv2d_16/bias/Adam_1
+
+
 model/stgcn_var/st_gcn_7/sequential_8/conv2d_16/kernel
-model/stgcn_var/st_gcn_7/sequential_8/conv2d_16/kernel/Adam
-model/stgcn_var/st_gcn_7/sequential_8/conv2d_16/kernel/Adam_1
+
+
 model/stgcn_var/st_gcn_7/sequential_9/batch_normalization_18/beta
-model/stgcn_var/st_gcn_7/sequential_9/batch_normalization_18/beta/Adam
-model/stgcn_var/st_gcn_7/sequential_9/batch_normalization_18/beta/Adam_1
+
+
 model/stgcn_var/st_gcn_7/sequential_9/batch_normalization_18/gamma
-model/stgcn_var/st_gcn_7/sequential_9/batch_normalization_18/gamma/Adam
-model/stgcn_var/st_gcn_7/sequential_9/batch_normalization_18/gamma/Adam_1
+
+
 model/stgcn_var/st_gcn_7/sequential_9/batch_normalization_18/moving_mean
 model/stgcn_var/st_gcn_7/sequential_9/batch_normalization_18/moving_variance
 model/stgcn_var/st_gcn_7/sequential_9/conv2d_17/bias
-model/stgcn_var/st_gcn_7/sequential_9/conv2d_17/bias/Adam
-model/stgcn_var/st_gcn_7/sequential_9/conv2d_17/bias/Adam_1
 model/stgcn_var/st_gcn_7/sequential_9/conv2d_17/kernel
-model/stgcn_var/st_gcn_7/sequential_9/conv2d_17/kernel/Adam
-model/stgcn_var/st_gcn_7/sequential_9/conv2d_17/kernel/Adam_1
 model/stgcn_var/st_gcn_8/conv_temporal_graphical_8/conv2d_18/bias
-model/stgcn_var/st_gcn_8/conv_temporal_graphical_8/conv2d_18/bias/Adam
-model/stgcn_var/st_gcn_8/conv_temporal_graphical_8/conv2d_18/bias/Adam_1
 model/stgcn_var/st_gcn_8/conv_temporal_graphical_8/conv2d_18/kernel
-model/stgcn_var/st_gcn_8/conv_temporal_graphical_8/conv2d_18/kernel/Adam
-model/stgcn_var/st_gcn_8/conv_temporal_graphical_8/conv2d_18/kernel/Adam_1
 model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_19/beta
-model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_19/beta/Adam
-model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_19/beta/Adam_1
 model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_19/gamma
-model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_19/gamma/Adam
-model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_19/gamma/Adam_1
 model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_19/moving_mean
 model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_19/moving_variance
 model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_20/beta
-model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_20/beta/Adam
-model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_20/beta/Adam_1
 model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_20/gamma
-model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_20/gamma/Adam
-model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_20/gamma/Adam_1
 model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_20/moving_mean
 model/stgcn_var/st_gcn_8/sequential_10/batch_normalization_20/moving_variance
 model/stgcn_var/st_gcn_8/sequential_10/conv2d_19/bias
-model/stgcn_var/st_gcn_8/sequential_10/conv2d_19/bias/Adam
-model/stgcn_var/st_gcn_8/sequential_10/conv2d_19/bias/Adam_1
 model/stgcn_var/st_gcn_8/sequential_10/conv2d_19/kernel
-model/stgcn_var/st_gcn_8/sequential_10/conv2d_19/kernel/Adam
-model/stgcn_var/st_gcn_8/sequential_10/conv2d_19/kernel/Adam_1
 model/stgcn_var/st_gcn_9/conv_temporal_graphical_9/conv2d_20/bias
-model/stgcn_var/st_gcn_9/conv_temporal_graphical_9/conv2d_20/bias/Adam
-model/stgcn_var/st_gcn_9/conv_temporal_graphical_9/conv2d_20/bias/Adam_1
 model/stgcn_var/st_gcn_9/conv_temporal_graphical_9/conv2d_20/kernel
-model/stgcn_var/st_gcn_9/conv_temporal_graphical_9/conv2d_20/kernel/Adam
-model/stgcn_var/st_gcn_9/conv_temporal_graphical_9/conv2d_20/kernel/Adam_1
 model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_21/beta
-model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_21/beta/Adam
-model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_21/beta/Adam_1
 model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_21/gamma
-model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_21/gamma/Adam
-model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_21/gamma/Adam_1
 model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_21/moving_mean
 model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_21/moving_variance
 model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_22/beta
-model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_22/beta/Adam
-model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_22/beta/Adam_1
 model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_22/gamma
-model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_22/gamma/Adam
-model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_22/gamma/Adam_1
 model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_22/moving_mean
 model/stgcn_var/st_gcn_9/sequential_11/batch_normalization_22/moving_variance
+
+
 model/stgcn_var/st_gcn_9/sequential_11/conv2d_21/bias
-model/stgcn_var/st_gcn_9/sequential_11/conv2d_21/bias/Adam
-model/stgcn_var/st_gcn_9/sequential_11/conv2d_21/bias/Adam_1
 model/stgcn_var/st_gcn_9/sequential_11/conv2d_21/kernel
-model/stgcn_var/st_gcn_9/sequential_11/conv2d_21/kernel/Adam
-model/stgcn_var/st_gcn_9/sequential_11/conv2d_21/kernel/Adam_1
 stgcn_var/Variable
-[<tf.Variable 'generator/audio_encoder/downsampling_block1/conv2d/kernel:0' shape=(3, 3, 1, 64) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/conv2d/bias:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization/gamma:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization/beta:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization/moving_mean:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization/moving_variance:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/conv2d_1/kernel:0' shape=(4, 4, 64, 64) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/conv2d_1/bias:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization_1/gamma:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization_1/beta:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization_1/moving_mean:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization_1/moving_variance:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/conv2d/kernel:0' shape=(3, 3, 64, 128) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/conv2d/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization/gamma:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization/beta:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization/moving_mean:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization/moving_variance:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/conv2d_1/kernel:0' shape=(4, 4, 128, 128) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/conv2d_1/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization_1/gamma:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization_1/beta:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization_1/moving_mean:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization_1/moving_variance:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/conv2d/kernel:0' shape=(3, 3, 128, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/conv2d/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/conv2d_1/kernel:0' shape=(4, 4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/conv2d_1/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization_1/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization_1/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization_1/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization_1/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/conv2d/kernel:0' shape=(3, 3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/conv2d/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/conv2d_1/kernel:0' shape=(3, 8, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/conv2d_1/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization_1/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization_1/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization_1/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization_1/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d/kernel:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_1/kernel:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_1/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_1/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_1/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_1/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_1/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_2/kernel:0' shape=(4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_2/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_2/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_2/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_2/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_2/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_3/kernel:0' shape=(4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_3/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_3/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_3/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_3/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_3/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_4/kernel:0' shape=(4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_4/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_4/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_4/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_4/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_4/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_5/kernel:0' shape=(4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_5/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_5/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_5/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_5/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_5/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_6/kernel:0' shape=(4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_6/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_6/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_6/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_6/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_6/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_7/kernel:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_7/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_7/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_7/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_7/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_7/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_8/kernel:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_8/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_8/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_8/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_8/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_8/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_9/kernel:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_9/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_9/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_9/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_9/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_9/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_10/kernel:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_10/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_10/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_10/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_10/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_10/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_11/kernel:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_11/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_11/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_11/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_11/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_11/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d/kernel:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_1/kernel:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_1/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_1/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_1/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_1/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_1/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_2/kernel:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_2/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_2/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_2/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_2/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_2/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_3/kernel:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_3/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_3/gamma:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_3/beta:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_3/moving_mean:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_3/moving_variance:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/logits/conv1d/kernel:0' shape=(1, 256, 98) dtype=float32_ref>, <tf.Variable 'generator/logits/conv1d/bias:0' shape=(98,) dtype=float32_ref>, <tf.Variable 'Variable:0' shape=(3, 49, 49) dtype=float32_ref>, <tf.Variable 'stgcn_var/batch_normalization_24/gamma:0' shape=(147,) dtype=float32>, <tf.Variable 'stgcn_var/batch_normalization_24/beta:0' shape=(147,) dtype=float32>, <tf.Variable 'stgcn_var/batch_normalization_24/moving_mean:0' shape=(147,) dtype=float32>, <tf.Variable 'stgcn_var/batch_normalization_24/moving_variance:0' shape=(147,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn/conv_temporal_graphical/conv2d_8/kernel:0' shape=(1, 1, 3, 192) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn/conv_temporal_graphical/conv2d_8/bias:0' shape=(192,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn/sequential/batch_normalization_25/gamma:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn/sequential/batch_normalization_25/beta:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn/sequential/batch_normalization_25/moving_mean:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn/sequential/batch_normalization_25/moving_variance:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn/sequential/conv2d_9/kernel:0' shape=(9, 1, 64, 64) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn/sequential/conv2d_9/bias:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn/sequential/batch_normalization_26/gamma:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn/sequential/batch_normalization_26/beta:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn/sequential/batch_normalization_26/moving_mean:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn/sequential/batch_normalization_26/moving_variance:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_1/conv_temporal_graphical_1/conv2d_10/kernel:0' shape=(1, 1, 64, 192) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_1/conv_temporal_graphical_1/conv2d_10/bias:0' shape=(192,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_1/sequential_1/batch_normalization_27/gamma:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_1/sequential_1/batch_normalization_27/beta:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_1/sequential_1/batch_normalization_27/moving_mean:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_1/sequential_1/batch_normalization_27/moving_variance:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_1/sequential_1/conv2d_11/kernel:0' shape=(9, 1, 64, 64) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_1/sequential_1/conv2d_11/bias:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_1/sequential_1/batch_normalization_28/gamma:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_1/sequential_1/batch_normalization_28/beta:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_1/sequential_1/batch_normalization_28/moving_mean:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_1/sequential_1/batch_normalization_28/moving_variance:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_2/conv_temporal_graphical_2/conv2d_12/kernel:0' shape=(1, 1, 64, 192) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_2/conv_temporal_graphical_2/conv2d_12/bias:0' shape=(192,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_2/sequential_2/batch_normalization_29/gamma:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_2/sequential_2/batch_normalization_29/beta:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_2/sequential_2/batch_normalization_29/moving_mean:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_2/sequential_2/batch_normalization_29/moving_variance:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_2/sequential_2/conv2d_13/kernel:0' shape=(9, 1, 64, 64) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_2/sequential_2/conv2d_13/bias:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_2/sequential_2/batch_normalization_30/gamma:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_2/sequential_2/batch_normalization_30/beta:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_2/sequential_2/batch_normalization_30/moving_mean:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_2/sequential_2/batch_normalization_30/moving_variance:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_3/conv_temporal_graphical_3/conv2d_14/kernel:0' shape=(1, 1, 64, 192) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_3/conv_temporal_graphical_3/conv2d_14/bias:0' shape=(192,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_3/sequential_3/batch_normalization_31/gamma:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_3/sequential_3/batch_normalization_31/beta:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_3/sequential_3/batch_normalization_31/moving_mean:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_3/sequential_3/batch_normalization_31/moving_variance:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_3/sequential_3/conv2d_15/kernel:0' shape=(9, 1, 64, 64) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_3/sequential_3/conv2d_15/bias:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_3/sequential_3/batch_normalization_32/gamma:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_3/sequential_3/batch_normalization_32/beta:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_3/sequential_3/batch_normalization_32/moving_mean:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_3/sequential_3/batch_normalization_32/moving_variance:0' shape=(64,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_5/conv2d_18/kernel:0' shape=(1, 1, 64, 128) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_5/conv2d_18/bias:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_5/batch_normalization_35/gamma:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_5/batch_normalization_35/beta:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_5/batch_normalization_35/moving_mean:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_5/batch_normalization_35/moving_variance:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/conv_temporal_graphical_4/conv2d_16/kernel:0' shape=(1, 1, 64, 384) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/conv_temporal_graphical_4/conv2d_16/bias:0' shape=(384,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_4/batch_normalization_33/gamma:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_4/batch_normalization_33/beta:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_4/batch_normalization_33/moving_mean:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_4/batch_normalization_33/moving_variance:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_4/conv2d_17/kernel:0' shape=(9, 1, 128, 128) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_4/conv2d_17/bias:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_4/batch_normalization_34/gamma:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_4/batch_normalization_34/beta:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_4/batch_normalization_34/moving_mean:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_4/sequential_4/batch_normalization_34/moving_variance:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_5/conv_temporal_graphical_5/conv2d_19/kernel:0' shape=(1, 1, 128, 384) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_5/conv_temporal_graphical_5/conv2d_19/bias:0' shape=(384,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_5/sequential_6/batch_normalization_36/gamma:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_5/sequential_6/batch_normalization_36/beta:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_5/sequential_6/batch_normalization_36/moving_mean:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_5/sequential_6/batch_normalization_36/moving_variance:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_5/sequential_6/conv2d_20/kernel:0' shape=(9, 1, 128, 128) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_5/sequential_6/conv2d_20/bias:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_5/sequential_6/batch_normalization_37/gamma:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_5/sequential_6/batch_normalization_37/beta:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_5/sequential_6/batch_normalization_37/moving_mean:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_5/sequential_6/batch_normalization_37/moving_variance:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_6/conv_temporal_graphical_6/conv2d_21/kernel:0' shape=(1, 1, 128, 384) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_6/conv_temporal_graphical_6/conv2d_21/bias:0' shape=(384,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_6/sequential_7/batch_normalization_38/gamma:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_6/sequential_7/batch_normalization_38/beta:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_6/sequential_7/batch_normalization_38/moving_mean:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_6/sequential_7/batch_normalization_38/moving_variance:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_6/sequential_7/conv2d_22/kernel:0' shape=(9, 1, 128, 128) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_6/sequential_7/conv2d_22/bias:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_6/sequential_7/batch_normalization_39/gamma:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_6/sequential_7/batch_normalization_39/beta:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_6/sequential_7/batch_normalization_39/moving_mean:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_6/sequential_7/batch_normalization_39/moving_variance:0' shape=(128,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_9/conv2d_25/kernel:0' shape=(1, 1, 128, 256) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_9/conv2d_25/bias:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_9/batch_normalization_42/gamma:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_9/batch_normalization_42/beta:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_9/batch_normalization_42/moving_mean:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_9/batch_normalization_42/moving_variance:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/conv_temporal_graphical_7/conv2d_23/kernel:0' shape=(1, 1, 128, 768) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/conv_temporal_graphical_7/conv2d_23/bias:0' shape=(768,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_8/batch_normalization_40/gamma:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_8/batch_normalization_40/beta:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_8/batch_normalization_40/moving_mean:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_8/batch_normalization_40/moving_variance:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_8/conv2d_24/kernel:0' shape=(9, 1, 256, 256) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_8/conv2d_24/bias:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_8/batch_normalization_41/gamma:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_8/batch_normalization_41/beta:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_8/batch_normalization_41/moving_mean:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_7/sequential_8/batch_normalization_41/moving_variance:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_8/conv_temporal_graphical_8/conv2d_26/kernel:0' shape=(1, 1, 256, 768) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_8/conv_temporal_graphical_8/conv2d_26/bias:0' shape=(768,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_8/sequential_10/batch_normalization_43/gamma:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_8/sequential_10/batch_normalization_43/beta:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_8/sequential_10/batch_normalization_43/moving_mean:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_8/sequential_10/batch_normalization_43/moving_variance:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_8/sequential_10/conv2d_27/kernel:0' shape=(9, 1, 256, 256) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_8/sequential_10/conv2d_27/bias:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_8/sequential_10/batch_normalization_44/gamma:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_8/sequential_10/batch_normalization_44/beta:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_8/sequential_10/batch_normalization_44/moving_mean:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_8/sequential_10/batch_normalization_44/moving_variance:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_9/conv_temporal_graphical_9/conv2d_28/kernel:0' shape=(1, 1, 256, 768) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_9/conv_temporal_graphical_9/conv2d_28/bias:0' shape=(768,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_9/sequential_11/batch_normalization_45/gamma:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_9/sequential_11/batch_normalization_45/beta:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_9/sequential_11/batch_normalization_45/moving_mean:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_9/sequential_11/batch_normalization_45/moving_variance:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_9/sequential_11/conv2d_29/kernel:0' shape=(9, 1, 256, 256) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_9/sequential_11/conv2d_29/bias:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_9/sequential_11/batch_normalization_46/gamma:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_9/sequential_11/batch_normalization_46/beta:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_9/sequential_11/batch_normalization_46/moving_mean:0' shape=(256,) dtype=float32>, <tf.Variable 'stgcn_var/st_gcn_9/sequential_11/batch_normalization_46/moving_variance:0' shape=(256,) dtype=float32>, <tf.Variable 'beta1_power:0' shape=() dtype=float32_ref>, <tf.Variable 'beta2_power:0' shape=() dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/conv2d/kernel/Adam:0' shape=(3, 3, 1, 64) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/conv2d/kernel/Adam_1:0' shape=(3, 3, 1, 64) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/conv2d/bias/Adam:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/conv2d/bias/Adam_1:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization/gamma/Adam:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization/gamma/Adam_1:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization/beta/Adam:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization/beta/Adam_1:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/conv2d_1/kernel/Adam:0' shape=(4, 4, 64, 64) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/conv2d_1/kernel/Adam_1:0' shape=(4, 4, 64, 64) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/conv2d_1/bias/Adam:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/conv2d_1/bias/Adam_1:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization_1/gamma/Adam:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization_1/gamma/Adam_1:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization_1/beta/Adam:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block1/batch_normalization_1/beta/Adam_1:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/conv2d/kernel/Adam:0' shape=(3, 3, 64, 128) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/conv2d/kernel/Adam_1:0' shape=(3, 3, 64, 128) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/conv2d/bias/Adam:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/conv2d/bias/Adam_1:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization/gamma/Adam:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization/gamma/Adam_1:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization/beta/Adam:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization/beta/Adam_1:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/conv2d_1/kernel/Adam:0' shape=(4, 4, 128, 128) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/conv2d_1/kernel/Adam_1:0' shape=(4, 4, 128, 128) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/conv2d_1/bias/Adam:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/conv2d_1/bias/Adam_1:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization_1/gamma/Adam:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization_1/gamma/Adam_1:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization_1/beta/Adam:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block2/batch_normalization_1/beta/Adam_1:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/conv2d/kernel/Adam:0' shape=(3, 3, 128, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/conv2d/kernel/Adam_1:0' shape=(3, 3, 128, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/conv2d/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/conv2d/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/conv2d_1/kernel/Adam:0' shape=(4, 4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/conv2d_1/kernel/Adam_1:0' shape=(4, 4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/conv2d_1/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/conv2d_1/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization_1/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization_1/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization_1/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block3/batch_normalization_1/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/conv2d/kernel/Adam:0' shape=(3, 3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/conv2d/kernel/Adam_1:0' shape=(3, 3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/conv2d/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/conv2d/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/conv2d_1/kernel/Adam:0' shape=(3, 8, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/conv2d_1/kernel/Adam_1:0' shape=(3, 8, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/conv2d_1/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/conv2d_1/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization_1/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization_1/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization_1/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block4/batch_normalization_1/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d/kernel/Adam:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d/kernel/Adam_1:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_1/kernel/Adam:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_1/kernel/Adam_1:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_1/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_1/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_1/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_1/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_1/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_1/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_2/kernel/Adam:0' shape=(4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_2/kernel/Adam_1:0' shape=(4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_2/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_2/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_2/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_2/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_2/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_2/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_3/kernel/Adam:0' shape=(4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_3/kernel/Adam_1:0' shape=(4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_3/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_3/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_3/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_3/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_3/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_3/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_4/kernel/Adam:0' shape=(4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_4/kernel/Adam_1:0' shape=(4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_4/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_4/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_4/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_4/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_4/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_4/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_5/kernel/Adam:0' shape=(4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_5/kernel/Adam_1:0' shape=(4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_5/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_5/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_5/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_5/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_5/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_5/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_6/kernel/Adam:0' shape=(4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_6/kernel/Adam_1:0' shape=(4, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_6/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_6/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_6/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_6/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_6/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_6/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_7/kernel/Adam:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_7/kernel/Adam_1:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_7/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_7/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_7/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_7/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_7/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_7/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_8/kernel/Adam:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_8/kernel/Adam_1:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_8/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_8/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_8/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_8/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_8/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_8/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_9/kernel/Adam:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_9/kernel/Adam_1:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_9/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_9/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_9/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_9/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_9/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_9/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_10/kernel/Adam:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_10/kernel/Adam_1:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_10/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_10/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_10/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_10/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_10/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_10/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_11/kernel/Adam:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_11/kernel/Adam_1:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_11/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/conv1d_11/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_11/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_11/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_11/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/audio_encoder/downsampling_block5/batch_normalization_11/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d/kernel/Adam:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d/kernel/Adam_1:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_1/kernel/Adam:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_1/kernel/Adam_1:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_1/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_1/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_1/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_1/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_1/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_1/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_2/kernel/Adam:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_2/kernel/Adam_1:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_2/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_2/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_2/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_2/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_2/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_2/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_3/kernel/Adam:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_3/kernel/Adam_1:0' shape=(3, 256, 256) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_3/bias/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/conv1d_3/bias/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_3/gamma/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_3/gamma/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_3/beta/Adam:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/decoder/batch_normalization_3/beta/Adam_1:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'generator/logits/conv1d/kernel/Adam:0' shape=(1, 256, 98) dtype=float32_ref>, <tf.Variable 'generator/logits/conv1d/kernel/Adam_1:0' shape=(1, 256, 98) dtype=float32_ref>, <tf.Variable 'generator/logits/conv1d/bias/Adam:0' shape=(98,) dtype=float32_ref>, <tf.Variable 'generator/logits/conv1d/bias/Adam_1:0' shape=(98,) dtype=float32_ref>]

@@ -1,5 +1,5 @@
 
-#### atom
+#### deb
 
 - `sudo dpkg -i`命令运行.deb安装文件
 - `sudo apt-get -f install`

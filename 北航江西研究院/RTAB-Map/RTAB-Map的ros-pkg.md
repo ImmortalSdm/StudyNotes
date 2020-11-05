@@ -55,7 +55,17 @@ sudo make install
 安装RTAB-Map ros-pkg
 
 
+```
+cd ~/catkin_ws
+git clone https://github.com/introlab/rtabmap_ros.git src/rtabmap_ros
+catkin_make -j1
+```
 
+可选：
+
+`Add -DRTABMAP_SYNC_MULTI_RGBD=ON` to `catkin_make` 如果你计划使用多相机
+
+`Add -DRTABMAP_SYNC_USER_DATA=ON` to `catkin_make` if you plan to use user data synchronized topics.
 
 
 

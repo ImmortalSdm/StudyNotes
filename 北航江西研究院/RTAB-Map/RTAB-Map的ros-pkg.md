@@ -26,7 +26,7 @@ sudo apt install ros-melodic-rtabmap ros-melodic-rtabmap-ros
 
 g2o
 ```
-sudo apt install ros-noetic-libg2o
+sudo apt install ros-melodic-libg2o
 ```
 
 

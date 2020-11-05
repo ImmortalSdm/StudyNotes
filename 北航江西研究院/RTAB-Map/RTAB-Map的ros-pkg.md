@@ -70,4 +70,10 @@ catkin_make -j1
 
 
 
+---
 
+# for Nvidia Jetson
+
+```
+sudo apt-get install ros-kinetic-ros-base ros-kinetic-image-transport ros-kinetic-tf ros-kinetic-tf-conversions ros-kinetic-eigen-conversions ros-kinetic-laser-geometry ros-kinetic-pcl-conversions ros-kinetic-pcl-ros ros-kinetic-move-base-msgs ros-kinetic-rviz ros-kinetic-octomap-ros ros-kinetic-move-base libhdf5-openmpi-dev libsuitesparse-dev
+```

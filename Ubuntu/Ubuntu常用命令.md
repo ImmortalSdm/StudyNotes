@@ -1,9 +1,11 @@
 ###### deb
 
-- `sudo dpkg -i`命令运行.deb安装文件
-- `sudo apt-get -f install`
-- `sudo apt-get update --fix-missing`
-- 再`sudo dpkg -i`命令运行.deb安装文件
+```
+sudo dpkg -i
+sudo apt-get -f install
+sudo apt-get update --fix-missing
+sudo dpkg -i
+```
 
 ###### 切换cuda
 ```

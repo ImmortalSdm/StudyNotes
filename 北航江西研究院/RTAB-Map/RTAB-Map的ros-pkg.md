@@ -41,8 +41,18 @@ GTSAM
 安装RTAB-Map独立库
 
 
+```
+cd ~
+git clone https://github.com/introlab/rtabmap.git rtabmap
+cd rtabmap/build
+cmake ..  -DCMAKE_INSTALL_PREFIX=~/catkin_ws/devel
+make
+sudo make install
+```
 
+---
 
+安装RTAB-Map ros-pkg
 
 
 

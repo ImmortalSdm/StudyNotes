@@ -1,4 +1,4 @@
-装好ROS后
+## 装好ROS
 
 确认已设置工作空间
 ```
@@ -10,14 +10,14 @@ echo $ROS_PACKAGE_PATH
 
 ---
 
-安装rtabmap-ros
+## 安装rtabmap-ros
 ```
 sudo apt install ros-melodic-rtabmap ros-melodic-rtabmap-ros
 ```
 
 ---
 
-可选依赖
+## 可选依赖
 
 若要使用SURF/SIFT，则
 ```
@@ -38,7 +38,7 @@ GTSAM
 
 ---
 
-安装RTAB-Map独立库
+## 安装RTAB-Map独立库
 
 
 ```
@@ -52,7 +52,7 @@ sudo make install
 
 ---
 
-安装RTAB-Map ros-pkg
+## 安装RTAB-Map ros-pkg
 
 
 ```

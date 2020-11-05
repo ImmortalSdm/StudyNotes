@@ -8,7 +8,46 @@ echo $ROS_PACKAGE_PATH
 
 `/home/tx2/catkin_ws/src:/opt/ros/melodic/share`
 
+---
 
+安装rtabmap-ros
 ```
 sudo apt install ros-melodic-rtabmap ros-melodic-rtabmap-ros
 ```
+
+---
+
+可选依赖
+
+若要使用SURF/SIFT，则
+```
+
+```
+
+g2o
+```
+sudo apt install ros-noetic-libg2o
+```
+
+
+GTSAM
+```
+
+```
+
+
+---
+
+安装RTAB-Map独立库
+
+
+
+
+
+
+
+
+
+
+
+

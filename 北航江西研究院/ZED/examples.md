@@ -7,3 +7,7 @@ rosdep install --from-paths src --ignore-src -r -y
 catkin_make -DCMAKE_BUILD_TYPE=Release
 source ./devel/setup.bash
 ```
+
+```
+roslaunch zed_rtabmap_example zed_rtabmap.launch
+```

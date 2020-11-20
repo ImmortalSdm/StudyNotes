@@ -1,7 +1,7 @@
 ###### deb
 
 ```
-sudo dpkg -i
+sudo dpkg -i 
 sudo apt-get -f install
 sudo apt-get update --fix-missing
 sudo dpkg -i

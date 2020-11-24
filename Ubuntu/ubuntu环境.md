@@ -92,7 +92,9 @@ sudo apt-get install g++-5
 ```
 
 装完后进入到/usr/bin目录下
+
 ```
+cd /usr/bin
 ls -l gcc*
 ```
 会显示以下结果

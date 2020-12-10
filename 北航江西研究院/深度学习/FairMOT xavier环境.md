@@ -10,6 +10,8 @@ conda create --name FairMOT python=3.6
 
 ```
 source activate FairMOT
+
+source FairMOT_v/bin/activate
 ```
 
 ```

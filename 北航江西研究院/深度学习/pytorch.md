@@ -1,3 +1,3 @@
 ```
-https://nvidia.box.com/shared/static/ncgzus5o23uck9i5oth2n8n06k340l6k.whl
+https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-7-0-now-available/72048
 ```

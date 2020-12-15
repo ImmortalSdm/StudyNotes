@@ -1,9 +1,13 @@
 # lio-sam中的IMU标定总结
 
-- lio-sam使用IMU的方法
-- lidar_align——激光雷达与IMU外部校准的方法
+- lio-sam使用IMU的方法分析
+- lidar_align分析
+- 使用lidar_align校准小车所使用ZED2中的IMU
+- 实验结果
 
-## lio-sam使用IMU的方法
+---
+
+## 一、lio-sam使用IMU的方法分析
 
 
 
@@ -12,4 +16,15 @@
 
 ---
 
-## lidar_align——激光雷达与IMU之间外部校准的方法
+## 二、lidar_align分析
+
+lidar_align是一种激光雷达与IMU之间外部校准的方法。
+
+---
+
+
+## 三、使用lidar_align校准小车所使用ZED2中的IMU
+
+---
+
+## 四、实验结果

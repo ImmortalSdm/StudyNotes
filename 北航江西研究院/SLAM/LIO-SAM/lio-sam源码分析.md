@@ -20,8 +20,12 @@
 - odometryHandler(订阅"odometry/imu_incremental")，添加到odomQueue
 - cloudHandler(订阅pointCloudTopic)，
 
+### class FeatureExtraction
+- laserCloudInfoHandler(订阅"lio_sam/deskew/cloud_info")
+- publishFeatureCloud()，发布
 
-### mapOptimization:
+
+### class mapOptimization:
 - laserCloudInfoHandler(订阅"lio_sam/feature/cloud_info")，调用publishOdometry
 - gpsHandler(订阅gpsTopic)
 - loopInfoHandler(订阅"lio_loop/loop_closure_detection")

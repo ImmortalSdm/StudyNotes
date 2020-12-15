@@ -22,6 +22,10 @@
 
 lidar_align是一种激光雷达与IMU之间外部校准的方法。
 
+https://github.com/ethz-asl/lidar_align
+
+
+
 ---
 
 ## 三、使用lidar_align校准小车所使用ZED2中的IMU

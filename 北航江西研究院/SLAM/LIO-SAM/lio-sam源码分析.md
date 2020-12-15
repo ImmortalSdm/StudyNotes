@@ -21,4 +21,10 @@
 - cloudHandler(订阅pointCloudTopic)，
 
 
+### mapOptimization:
+- laserCloudInfoHandler(订阅"lio_sam/feature/cloud_info")，调用publishOdometry
+- gpsHandler(订阅gpsTopic)
+- loopInfoHandler(订阅"lio_loop/loop_closure_detection")
+- publishOdometry()，发布"lio_sam/mapping/odometry",发布"lio_sam/mapping/odometry_incremental"
+
 ---

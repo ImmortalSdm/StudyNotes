@@ -11,9 +11,9 @@
 
 ![](lio-sam代码结构.png)
 
+在lio-sam中，实时的IMU数据将与prevStateOdom和prevBiasOdom一起计算得到imuPose，然后再通过给出的extrinsicTrans计算出lidarPose。
 
-
-
+而prevStateOdom和prevBiasOdom是使用gtsam的概率图模型来进行计算的，每一次采集雷达数据都会对prevStateOdom和prevBiasOdom进行修正。
 
 
 ---

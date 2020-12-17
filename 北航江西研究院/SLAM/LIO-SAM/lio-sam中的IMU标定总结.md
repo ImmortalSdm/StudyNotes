@@ -34,12 +34,28 @@ https://github.com/ethz-asl/lidar_align
 ## 三、使用lidar_align校准小车所使用ZED2中的IMU
 
 - 采集小车上ZED2的IMU以及雷达数据
- - 将采集的数据使用lidar_align进行拟合（没有lidar_align需要用到的geometry_msgs/TransformStamped类型数据，需要将代码改为sensor_msgs/Imu数据格式）
- - 使用lidar_align得到的结果修正lio-sam所使用的imu数据
+- 将采集的数据使用lidar_align进行拟合（没有lidar_align需要用到的geometry_msgs/TransformStamped类型数据，需要将代码改为sensor_msgs/Imu数据格式）
+- 使用lidar_align得到的结果修正lio-sam所使用的imu数据
 
 ---
 
 ## 四、实验结果
 
 经过几十分钟的拟合后，得到了lidar_align求出的修正值：
+
+平移extrinsicTrans
+[-0.0100746,0.000484179,0.0395583]
+
+角度的四元数
+[0.567411,-0.0726565,0.0934026,0.814887]
+
+
+
+
+---
+
+## 五、总结
+
+
+
 

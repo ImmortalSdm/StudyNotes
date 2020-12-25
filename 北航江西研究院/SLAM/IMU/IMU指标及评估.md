@@ -16,8 +16,11 @@ IMU的误差：
 
 ## IMU性能及评估指标
 
+#### IMU价格和使用场景
+
 ![](imu.png)
 
+我们使用中低精度的IMU即可
 
 #### IMU主要的误差来源
 
@@ -40,6 +43,8 @@ IMU的误差：
 -|-|-|-|-|-|-|
 价格|5万元左右|6万元左右|244元|1.25万元|
 采样率|2000Hz|2000Hz|6.25Hz-3200Hz|1000 Hz|
+加速度计精度||||||
+陀螺仪精度||||||
 加速度计零偏稳定性|0.05mg|0.003mg|xy轴150mg，z轴250mg|0.06mg|
 陀螺仪零偏稳定性|0.3°/h|0.3°/h|无指标|18°/h|
 陀螺仪角随机游走|0.15°/√h|0.15 °/√h|无指标|暂无数据|
@@ -75,13 +80,18 @@ https://www.sparkfun.com/products/retired/10736
 
 #### SparkFun 9DoF IMU Breakout - LSM9DS1
 
+需要自己写底层串口通信，封装ROS
+
 https://www.sparkfun.com/products/13284
 
 只能从sparkfun官网上买
 
 #### ZED2
 
-发了邮件还未回复
+官网未给出IMU的参数，发邮件咨询还未回复。
 
 ---
 
+xsens
+
+https://www.xsens.cn/MTi

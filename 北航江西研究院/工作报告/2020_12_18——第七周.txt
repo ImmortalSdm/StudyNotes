@@ -1,0 +1,21 @@
+2020.12.18，第七周工作总结——张斌
+
+本周工作内容及进展：
+一、测试LIO-SAM室内里程计在更快的速度下的效果：
+在0.8m/s快速移动下，lio-sam里程计漂移及建图效果未出现可见下降，可良好闭合。
+
+二、lidar_align进行IMU+激光雷达的标定:
+使用lidar_align校准小车所使用ZED2中的IMU，首先采集小车上ZED2的IMU以及雷达数据，将采集的数据使用lidar_align进行拟合，使用lidar_align得到的结果修正lio-sam所使用的imu数据，效果并不好，需要寻找其他方法。
+由于lio-sam本身的鲁棒性，即使并不在IMU与雷达之间进行校准，参数设置正确的情况下，也未产生里程计的偏差。
+具体分析见《IMU标定初步》。
+
+三、IMU及GPS的产品
+支持ROS的IMU：
+8 http:// 🗝zzQMcqVnMBf🔐噠閞℡tb【ROS机器人传感器IMU传感器9DoF Razor IMU+数据线(含税包邮)】
+
+支持ROS的GPS（精度2M）：
+1 http:// 🗝enaZcqVMNTQ$回🍑/宝【ROS机器人GPS传感器U-Blox RTK GPS USB接口版（含税包邮)】
+
+存在问题及解决方案：
+雷达ros节点长时间运行会出现停止，需要重启雷达ros节点。
+技术人员回复说雷达驱动有点旧，需要等他们提供驱动升级方法。

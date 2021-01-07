@@ -13,7 +13,7 @@ https://base.xsens.com/hc/en-us/articles/360014235960-Interfacing-MTi-devices-wi
 
 安装ros驱动
 ```
-
+ sudo apt-get install ros-melodic-xsens-driver
 ```
 
 安装sdk

@@ -30,5 +30,7 @@ catkin_make -j8
 
 ```
 ```
+sudo chmod 777 /dev/ttyUSB0
+
 roslaunch xsens_mti_driver display.launch
 ```

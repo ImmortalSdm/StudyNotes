@@ -11,6 +11,16 @@ https://base.xsens.com/hc/en-us/articles/360014235960-Interfacing-MTi-devices-wi
 
 ---
 
+安装ros驱动
+```
+
+```
+
+安装sdk
+```
+
+```
+
 xsens_ros_mti_driver
 ```
 pushd src/xsens_ros_mti_driver/lib/xspublic && make && popd

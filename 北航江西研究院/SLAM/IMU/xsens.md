@@ -7,3 +7,18 @@ http://wiki.ros.org/xsens_mti_driver
 
 
 https://base.xsens.com/hc/en-us/articles/360014235960-Interfacing-MTi-devices-with-the-NVIDIA-Jetson
+
+
+---
+
+xsens_ros_mti_driver
+```
+pushd src/xsens_ros_mti_driver/lib/xspublic && make && popd
+
+catkin_make -j8
+
+
+```
+```
+roslaunch xsens_mti_driver display.launch
+```

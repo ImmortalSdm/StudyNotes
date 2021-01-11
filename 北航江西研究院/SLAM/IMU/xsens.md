@@ -43,5 +43,6 @@ catkin_make -j8
 - 运行demo
 ```
 sudo chmod 777 /dev/ttyUSB*
+
 roslaunch xsens_mti_driver display.launch
 ```

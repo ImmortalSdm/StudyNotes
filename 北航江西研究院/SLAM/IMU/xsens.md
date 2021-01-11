@@ -39,6 +39,8 @@ sudo chmod 777 /dev/ttyUSB*
 roslaunch xsens_mti_driver display.launch
 ```
 
+此时已经可以读取到/imu/data数据
+
 ---
 
 https://content.xsens.com/download-mt-software-suite?submissionGuid=3389d0c2-f247-448a-9cb2-8f8a81c41cd7

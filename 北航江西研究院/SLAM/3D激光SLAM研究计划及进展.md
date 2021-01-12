@@ -8,11 +8,7 @@
 
 - 阅读LOAM论文《LOAM: Lidar Odometry and Mapping in Real-time》
 - 研究A-LOAM代码
-- 阅读LeGO-LOAM论文《LeGO-LOAM: Lightweight and Ground-Optimized
-Lidar Odometry and Mapping on Variable Terrain》
-- 研究LeGO-LOAM-BOR代码
-- 阅读LIO-SAM论文《LIO-SAM: Tightly-coupled Lidar Inertial Odometry via
-Smoothing and Mapping》
+- 阅读LIO-SAM论文《LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping》
 - 研究LIO-SAM代码
 
 

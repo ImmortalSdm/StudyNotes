@@ -26,3 +26,18 @@ wget https://autoware-ai.s3.us-east-2.amazonaws.com/sample_moriyama_data.tar.gz
 
 wget https://autoware-ai.s3.us-east-2.amazonaws.com/sample_moriyama_150324.tar.gz
 ```
+
+```
+cd ~ 
+mkdir .autoware
+cd .autoware
+cp ~/Downloads/sample_moriyama_* .
+tar zxfv sample_moriyama_150324.tar.gz
+tar zxfv sample_moriyama_data.tar.gz
+```
+
+```
+cd autoware.ai
+source install/setup.bash
+roslaunch runtime_manager runtime_manager.launch
+```

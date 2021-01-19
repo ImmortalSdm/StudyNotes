@@ -19,3 +19,10 @@ cd ../
 rosdep install -y --from-paths src --ignore-src --rosdistro melodic
 ./catkin_make_release -j8
 ```
+
+
+```
+wget https://autoware-ai.s3.us-east-2.amazonaws.com/sample_moriyama_data.tar.gz
+
+wget https://autoware-ai.s3.us-east-2.amazonaws.com/sample_moriyama_150324.tar.gz
+```

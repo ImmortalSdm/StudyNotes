@@ -27,7 +27,7 @@ pushd src/xsens_ros_mti_driver/lib/xspublic && make && popd
 
 catkin_make -j8
 
-
+ 
 ```
 ```
 sudo chmod 777 /dev/ttyUSB0

@@ -7,6 +7,9 @@
 
 
 - 阅读LOAM论文《LOAM: Lidar Odometry and Mapping in Real-time》
+
+https://blog.csdn.net/try_again_later/article/details/105341390
+
 - 研究A-LOAM代码
 - 阅读LIO-SAM论文《LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping》
 - 研究LIO-SAM代码

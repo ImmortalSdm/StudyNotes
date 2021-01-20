@@ -15,7 +15,6 @@ git clone https://github.com/CPFL/Autoware.git --recurse-submodules
 ```
 rosdep update
 rosdep install -y --from-paths src --ignore-src --rosdistro melodic
-./catkin_make_release -j8
 ```
 
 

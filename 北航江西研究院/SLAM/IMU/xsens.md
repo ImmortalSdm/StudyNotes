@@ -34,8 +34,11 @@ catkin_make -j8
 
 - 运行demo
 ```
+sudo apt-get install setserial
+```
+```
 sudo chmod 777 /dev/ttyUSB*
-
+setserial /dev/ttyUSB0 low_latency
 roslaunch xsens_mti_driver display.launch
 ```
 

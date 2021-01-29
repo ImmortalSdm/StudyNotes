@@ -23,7 +23,9 @@ sudo ./mtsdk_linux-x64_2020.3.sh
 配置如下：
 ![](xsens配置.png)
 
-- 下载并编译demo（从github）
+- 下载并编译demo（从/usr/local/xsens/xsens_ros_mti_driver复制到ros的工作空间）
+
+
 
 xsens_ros_mti_driver
 ```

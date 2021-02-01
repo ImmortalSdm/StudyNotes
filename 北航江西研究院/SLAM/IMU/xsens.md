@@ -24,7 +24,6 @@ sudo ./mtsdk_linux-x64_2020.3.sh
 ![](xsens配置.png)
 - 旋转角必须设置为四元数，不可使用欧拉角
 - 惯性数据输出为Rate of Turn 以及 Accelerate（带重力加速度）
-- 磁力计可以不要
 
 - Zed2的频率为300hz，因此频率设置为400hz
 

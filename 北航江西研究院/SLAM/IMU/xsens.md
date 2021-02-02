@@ -43,7 +43,13 @@ sudo ./mtsdk_linux-x64_2020.3.sh
 
 - 从/usr/local/xsens/xsens_ros_mti_driver复制到ros的工作空间
 
+
+
 - xsens_ros_mti_driver
+
+首先构建ros工作空间，步骤省略
+
+然后编译
 ```
 pushd src/xsens_ros_mti_driver/lib/xspublic && make && popd
 
@@ -64,6 +70,8 @@ roslaunch xsens_mti_driver display.launch
 ```
 
 此时已经可以读取到/imu/data数据
+
+
 
 ---
 

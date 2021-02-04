@@ -81,7 +81,13 @@ CMake Error at /home/zbxavier/mbplanner_ws/devel/share/catkin_simple/cmake/catki
   "image_proc" provides a separate development package or SDK, be sure it has
   been installed.
 
-  
+```
+git clone https://github.com/ros-perception/image_pipeline.git
+
+git checkout noetic
+```
+fu zhi dao mbplanner_ws/src zhong
+
 ---
 
 ---

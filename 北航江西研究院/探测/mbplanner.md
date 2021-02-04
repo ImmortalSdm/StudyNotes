@@ -12,6 +12,10 @@ catkin config -DCMAKE_BUILD_TYPE=Release
 catkin build
 ```
 
+```
+roslaunch mbplanner mbplanner_m100_sim.launch
+```
+
 ---
 
 # error
@@ -46,8 +50,7 @@ cv::Mat m = cv::imread(filename, cv::IMREAD_UNCHANGED);
 sudo gedit /home/zbxavier/mbplanner_ws/src/sim/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp
 ```
 
-将文件中的 #include <opencv/cv.h>替换为
-#include <opencv2/opencv.hpp>
+将文件中的`#include <opencv/cv.h>`替换为`#include <opencv2/opencv.hpp>`
 
 ---
 /home/zbxavier/mbplanner_ws/src/sim/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:26:21: fatal error: highgui.h: 没有那个文件或目录
@@ -55,14 +58,16 @@ sudo gedit /home/zbxavier/mbplanner_ws/src/sim/rotors_simulator/rotors_gazebo_pl
 ```
 sudo gedit /home/zbxavier/mbplanner_ws/src/sim/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp
 ```
-
+```
 #include <opencv2/highgui/highgui.hpp>
-
+```
 ---
+
 error: ‘CV_RGB2BGR’ was not declared in this scope
 
+```
 #include <opencv2/imgproc/types_c.h> 
-
+```
 
 ---
 CMake Error at /home/zbxavier/mbplanner_ws/devel/share/catkin_simple/cmake/catkin_simple-extras.cmake:38 (find_package):
@@ -83,10 +88,9 @@ CMake Error at /home/zbxavier/mbplanner_ws/devel/share/catkin_simple/cmake/catki
 
 ```
 git clone https://github.com/ros-perception/image_pipeline.git
-
 git checkout noetic
 ```
-fu zhi dao mbplanner_ws/src zhong
+复制到`mbplanner_ws/src`中一起编译
 
 ---
 

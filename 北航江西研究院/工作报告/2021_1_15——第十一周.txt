@@ -1,0 +1,29 @@
+2021.01.15，第十一周工作总结——张斌
+
+本周工作内容及进展：
+
+一、调试xens MTi-600设备
+lio-sam使用xens MTi-600作为IMU的输入，在研究院室内，静止时IMU抖动已经基本消除，但转弯时，建图直接出现重复，IMU转弯时的数据还有问题。
+
+这是使用xens MTi-600建图效果
+```
+链接：https://pan.baidu.com/s/1UhxZ8FWGTt-4uCGWVkAeQQ 
+提取码：bhjx 
+```
+
+这是使用ZED2 的IMU建图效果
+```
+链接：https://pan.baidu.com/s/1gliY-rgeefQ7Aw5x8aweZg 
+提取码：bhjx 
+```
+
+二、调通新到的雷达设备
+新的雷达设备已经调通，可以运行，获取点云数据。
+
+三、导航算法
+导航算法依赖于建图结果，在小车上测试cartographer3D建图算法内置的导航，效果见
+```
+链接：https://pan.baidu.com/s/1au_C9bkroflbZxSO14l0pQ 
+提取码：bhjx 
+```
+但由于cartographer3D的建图效果本身并不好，所以对导航影响很大，简单的导航是没问题的，当地图变大后，cartographer建图与真实物理地图偏差较大，势必会影响导航的效果。

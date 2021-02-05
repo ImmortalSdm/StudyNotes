@@ -1,0 +1,9 @@
+2021.01.08，第十周工作总结——张斌
+
+本周工作内容及进展：
+一、学习激光SLAM的论文及算法
+
+二、安装调试测试xens MTi-600设备
+可以在Windows上使用MT manager软件对xens MTi-600进行参数配置；
+可以在小车和Xavier上连接并使用xens MTi-600；
+可以使用xens MTi-600运行lio-sam。

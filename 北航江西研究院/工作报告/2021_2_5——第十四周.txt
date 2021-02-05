@@ -1,0 +1,17 @@
+2021.02.05，第十四周工作总结——张斌
+
+本周工作内容及进展：
+
+一、整理补充xsens文档记录
+
+二、自主探测
+调试运行论文《Motion Primitives-based Path Planning for Fast and Agile Exploration using Aerial Robots》的代码，效果如下：
+```
+链接：https://pan.baidu.com/s/1_V7rw3yRWGpNUHM43_QnuA 
+提取码：bhjx 
+```
+1.可以进行自主探测并建图
+2.建图形成的全局地图点可以进行自动导航
+3.可以返回起始点
+
+三、整理lio-sam文档及代码

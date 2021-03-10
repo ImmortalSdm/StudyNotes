@@ -20,16 +20,23 @@ sudo apt-get install libcwiid-dev
 
 
 
+#### ‘shared_ptr’ in namespace ‘std’ does not name a template type
 
+add in that package's CMakeLists.txt 
 
+```
+add_compile_options(-std=c++11)
+```
 
+#### ‘nullptr’ was not declared in this scope
 
-
-
-
-
-
-
+```
+sudo gedit ~/turtlebot_ws/src/kobuki_controller_tutorial/CMakeLists.txt
+```
+add
+```
+add_compile_options(-std=c++11)
+```
 
 
 

@@ -24,6 +24,7 @@ gbplanner测试效果：
 mbplanner测试效果：
 由DARPA地下挑战赛公布的洞穴环道
 链接：https://pan.baidu.com/s/1ce2dsr4v9h7pjynZ_P3hgw 
+链接：https://pan.baidu.com/s/1jRRRGC5PamAgvLiWFJOt8Q 
 提取码：bhjx 
 
 gbplanner与mbplanner都在仿真数据集上表现出色，但在真实数据集上，

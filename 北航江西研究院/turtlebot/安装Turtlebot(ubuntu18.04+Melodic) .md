@@ -13,8 +13,17 @@ sudo apt-get install libbluetooth-dev
 sudo apt-get install libcwiid-dev
 ```
 
+---
 
 
+```
+roslaunch turtlebot_bringup minimal.launch
+
+roslaunch turtlebot_teleop keyboard_teleop.launch
+```
+
+
+---
 
 
 
@@ -37,6 +46,8 @@ add
 ```
 add_compile_options(-std=c++11)
 ```
+
+#### ‘shared_ptr’ in namespace ‘std’ does not name a template type
 
 
 
